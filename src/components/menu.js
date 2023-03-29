@@ -17,7 +17,7 @@ function Menu() {
                      <a href="/institucional" title="Institucional">»Institucional</a>
                   </li>
                   <li>
-                     <a href="/diretoria-executivatitle" title="Diretoria Executiva">»Diretoria Executiva</a>
+                     <a href="/diretoria-executiva" title="Diretoria Executiva">»Diretoria Executiva</a>
                   </li>
                   <li>
                      <a href="/conselhos" title="Conselheiros">»Conselheiros</a>

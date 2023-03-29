@@ -6,7 +6,7 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
-import axios from 'axios'
+// import axios from 'axios'
 
 export default function Home() {
   const [state, setState] = useState({
@@ -49,7 +49,7 @@ export default function Home() {
       }
 
       axios.post("/api/sendMail", dataToSubmit)
-
+q
       resetForm()
 
     }
@@ -128,7 +128,6 @@ export default function Home() {
         <link rel="stylesheet" href="css/css_adicional.css" type='text/css' />
       </Head>
 
-      <a className="hide" id="topo" href="#accessibility">Ir direto para menu de acessibilidade.</a>
       <noscript>
         <div className="error minor-font">
           Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site

@@ -49,7 +49,6 @@ export default function Home() {
         <link rel="stylesheet" href="css/css_adicional.css" type='text/css' />
       </Head>
 
-      <a className="hide" id="topo" href="#accessibility">Ir direto para menu de acessibilidade.</a>
       <noscript>
         <div Name="error minor-font">
           Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site

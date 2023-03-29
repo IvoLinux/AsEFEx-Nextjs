@@ -69,11 +69,11 @@ function Header() {
                      </a>
                   </div>
                   <div id="txt_logo" className="span10">
-                     {/* <Link <a href="/" title="Descrição do Portal Padrão">
+                     <a href="/" title="Descrição do Portal Padrão">
                         <h1 className="portal-title corto">AsEFEx</h1>
                         <span className="portal-description">Associação dos Ex-Alunos e dos Amigos da Escola de
                            Educação Física do Exército</span>
-                     </a> */}
+                     </a>
                   </div>
                </div>
                {/* fim .span8 */}
@@ -133,14 +133,10 @@ function Header() {
                         <a title="CDE" href="http://www.cde.eb.mil.br/">CDE</a>
                      </li>
                      <li className="portalservicos-item">
-                        {/* <Link href="/fale-conosco">
-                           <a title="Contato">Contato</a>
-                        </Link> */}
+                        <a href="/fale-conosco" title="Contato">Contato</a>
                      </li>
                      <li className="portalservicos-item">
-                        {/* <Link href="/seja-associado">
-                           <a title="Acessar Conta">Associe-se</a>
-                        </Link> */}
+                        <a href="/seja-associado" title="Acessar Conta">Associe-se</a>
                      </li>
                   </ul>
                   <span className="hide">Fim do menu de serviços</span>
