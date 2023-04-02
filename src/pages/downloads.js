@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -76,7 +77,7 @@ export default function Home() {
                   <span className="hide">Início do conteúdo da página</span>
                   <h1 className="documentFirstHeading">DOWNLOADS</h1>
                   <ul className="lista">
-                    <li><a href="documentos/regimento-interno.pdf">Estatuto</a></li>
+                    <li><Link href="documentos/regimento-interno.pdf">Estatuto</Link></li>
                   </ul>
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -77,19 +78,19 @@ export default function Home() {
                   <h1 className="documentFirstHeading">LINKS ÚTEIS</h1>
                   <ul className="lista">
                     <li>
-                      <a title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</a>
+                      <Link title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</Link>
                     </li>
                     <li>
-                      <a title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</a>
+                      <Link title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</Link>
                     </li>
                     <li>
-                      <a title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</a>
+                      <Link title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</Link>
                     </li>
                     <li>
-                      <a title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</a>
+                      <Link title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</Link>
                     </li>
                     <li>
-                      <a title="CDE" href="http://www.cde.eb.mil.br/">CDE</a>
+                      <Link title="CDE" href="http://www.cde.eb.mil.br/">CDE</Link>
                     </li>
                   </ul>
                   <span className="hide">Fim do conteúdo da página</span>

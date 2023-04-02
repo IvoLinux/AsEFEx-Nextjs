@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -119,7 +120,7 @@ export default function Home() {
                     <em>Cel Noaldo condecorou o recém-eleito Presidente Jair Bolsonaro com a Medalha do Mérito AsEFEx, durante o Encontro dos Calções Pretos, em 2018. </em>
                   </div>
 
-                  <p>Confira essa e outras matérias na <a href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw">Revista no 113 da AsEFEx</a></p>
+                  <p>Confira essa e outras matérias na <Link href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw">Revista no 113 da AsEFEx</Link></p>
 
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>

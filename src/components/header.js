@@ -9,28 +9,28 @@ function Header() {
                <div className="span6 accessibility-container">
                   <ul id="accessibility">
                      <li>
-                        <a accessKey={1} href="#content" id="link-conteudo">
+                        <Link accessKey={1} href="#content" id="link-conteudo">
                            Ir para o conteúdo
                            <span>1</span>
-                        </a>
+                        </Link>
                      </li>
                      <li>
-                        <a accessKey={2} href="#navigation" id="link-navegacao">
+                        <Link accessKey={2} href="#navigation" id="link-navegacao">
                            Ir para o menu
                            <span>2</span>
-                        </a>
+                        </Link>
                      </li>
                      <li>
-                        <a accessKey={3} href="#portal-searchbox" id="link-buscar">
+                        <Link accessKey={3} href="#portal-searchbox" id="link-buscar">
                            Ir para a busca
                            <span>3</span>
-                        </a>
+                        </Link>
                      </li>
                      <li>
-                        <a accessKey={4} href="#footer" id="link-rodape">
+                        <Link accessKey={4} href="#footer" id="link-rodape">
                            Ir para o rodapé
                            <span>4</span>
-                        </a>
+                        </Link>
                      </li>
                   </ul>
                </div>
@@ -39,21 +39,21 @@ function Header() {
                   {/* Descomente para inserir menu de exemplo de idiomas no topo */}
                   {/* <ul id="language" class="pull-right">
 							<li class="language-en">
-								<a href="#">EN</a>
+								<Link href="#">EN</Link>
 							</li>
 							<li class="language-es">
-								<a href="#">ES</a>
+								<Link href="#">ES</Link>
 							</li>
 						</ul>	 */}
                   <ul id="portal-siteactions" className="pull-right">
                      <li>
-                        <a accessKey={5} href="interna-acessibilidade.html">Acessibilidade</a>
+                        <Link accessKey={5} href="interna-acessibilidade.html">Acessibilidade</Link>
                      </li>
                      <li>
-                        <a accessKey={6} href="#" className="toggle-contraste">Alto Contraste</a>
+                        <Link accessKey={6} href="#" className="toggle-contraste">Alto Contraste</Link>
                      </li>
                      <li>
-                        <a accessKey={7} href="#">Mapa do Site</a>
+                        <Link accessKey={7} href="#">Mapa do Site</Link>
                      </li>
                   </ul>
                </div>
@@ -64,16 +64,16 @@ function Header() {
                <div id="logo" className="span8">
                   {/* <div id="logo" class="span8 big"> <div id="logo" class="span8 small"> */}
                   <div id="img_logo" className="span2" style={{ paddingTop: 5 }}>
-                     <a href="/" title="Logo do Portal Padrão">
+                     <Link href="/" title="Logo do Portal Padrão">
                         <img alt="Logo" src="images/Logo.png" style={{ maxWidth: 100, maxHeight: 100, width: 'auto', height: 'auto' }} />
-                     </a>
+                     </Link>
                   </div>
                   <div id="txt_logo" className="span10">
-                     <a href="/" title="Descrição do Portal Padrão">
+                     <Link href="/" title="Descrição do Portal Padrão">
                         <h1 className="portal-title corto">AsEFEx</h1>
                         <span className="portal-description">Associação dos Ex-Alunos e dos Amigos da Escola de
                            Educação Física do Exército</span>
-                     </a>
+                     </Link>
                   </div>
                </div>
                {/* fim .span8 */}
@@ -96,12 +96,12 @@ function Header() {
                      <h2 className="hidden">Redes Sociais</h2>
                      <ul className="pull-right">
                         <li className="portalredes-item">
-                           <a title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
-                              <i className="icon-facebook-sign"><span>Facebook</span></i></a>
+                           <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
+                              <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
                         </li>
                         <li className="portalredes-item">
-                           <a title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
-                              <i className="icon-instagram"><span>Instagram</span></i></a>
+                           <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
+                              <i className="icon-instagram"><span>Instagram</span></i></Link>
                         </li>
                      </ul>
                   </div>
@@ -118,25 +118,25 @@ function Header() {
                   <h2 className="hide">Serviços</h2>
                   <ul>
                      <li className="portalservicos-item">
-                        <a title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</a>
+                        <Link title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</Link>
                      </li>
                      <li className="portalservicos-item">
-                        <a title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</a>
+                        <Link title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</Link>
                      </li>
                      <li className="portalservicos-item">
-                        <a title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</a>
+                        <Link title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</Link>
                      </li>
                      <li className="portalservicos-item">
-                        <a title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</a>
+                        <Link title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</Link>
                      </li>
                      <li className="portalservicos-item">
-                        <a title="CDE" href="http://www.cde.eb.mil.br/">CDE</a>
+                        <Link title="CDE" href="http://www.cde.eb.mil.br/">CDE</Link>
                      </li>
                      <li className="portalservicos-item">
-                        <a href="/fale-conosco" title="Contato">Contato</a>
+                        <Link href="/fale-conosco" title="Contato">Contato</Link>
                      </li>
                      <li className="portalservicos-item">
-                        <a href="/seja-associado" title="Acessar Conta">Associe-se</a>
+                        <Link href="/seja-associado" title="Acessar Conta">Associe-se</Link>
                      </li>
                   </ul>
                   <span className="hide">Fim do menu de serviços</span>

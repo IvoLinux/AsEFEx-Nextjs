@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -58,9 +59,9 @@ export default function Home() {
          </noscript>
 
          <div id="barra-brasil">
-            <a href="http://brasil.gov.br"
+            <Link href="http://brasil.gov.br"
                title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-               Governo Brasileiro</a>
+               Governo Brasileiro</Link>
          </div>
 
          <div className="layout">
@@ -83,7 +84,7 @@ export default function Home() {
                               e ao Sitio Histórico da Fortaleza de São João. </p>
                            <p>
                               {/* <Link href="/escreva">
-                                 <a>Faça sua proposta de matéria para publicação na Revista da AsEFEx.</a>
+                                 <Link>Faça sua proposta de matéria para publicação na Revista da AsEFEx.</Link>
                               </Link> */}
                            </p>
                            <h2>Edições 2021</h2>
@@ -91,16 +92,16 @@ export default function Home() {
                               <div className="row">
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/006435344d3a13a215c69?authid=G7WRiQYJICNf"><img src="images/ed114.jpg" />
+                                       <Link href="https://pt.calameo.com/read/006435344d3a13a215c69?authid=G7WRiQYJICNf"><img src="images/ed114.jpg" />
                                           <h2><strong>Nr 114</strong></h2>
-                                          <p>Abril e Junho de 2021</p></a>
+                                          <p>Abril e Junho de 2021</p></Link>
                                     </div>
                                  </div>
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw"><img src="images/ed113.jpg" />
+                                       <Link href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw"><img src="images/ed113.jpg" />
                                           <h2><strong>Nr 113</strong></h2>
-                                          <p>Dezembro de 2020</p></a>
+                                          <p>Dezembro de 2020</p></Link>
                                     </div>
                                  </div>
                               </div>
@@ -110,32 +111,32 @@ export default function Home() {
                               <div className="row">
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/00643534419b2d0f41807?authid=4GXev9E6EqlB"><img src="images/ed112.jpg" />
+                                       <Link href="https://pt.calameo.com/read/00643534419b2d0f41807?authid=4GXev9E6EqlB"><img src="images/ed112.jpg" />
                                           <h2><strong>Nr 112</strong></h2>
-                                          <p>Novembro e Dezembro de 2020</p></a>
+                                          <p>Novembro e Dezembro de 2020</p></Link>
                                     </div>
                                  </div>
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/006435344e04bab2bf544?authid=lZcaNNaCa7AH"><img src="images/ed111.jpg" />
+                                       <Link href="https://pt.calameo.com/read/006435344e04bab2bf544?authid=lZcaNNaCa7AH"><img src="images/ed111.jpg" />
                                           <h2><strong>Nr 111</strong></h2>
-                                          <p>Setembro e Outubro de 2020</p></a>
+                                          <p>Setembro e Outubro de 2020</p></Link>
                                     </div>
                                  </div>
                               </div>
                               <div className="row">
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/0064353445b120d4cc41d?authid=y3M87gniA4Ak"><img src="images/ed110.jpg" />
+                                       <Link href="https://pt.calameo.com/read/0064353445b120d4cc41d?authid=y3M87gniA4Ak"><img src="images/ed110.jpg" />
                                           <h2><strong>Nr 110</strong></h2>
-                                          <p>Julho e Agosto de 2020</p></a>
+                                          <p>Julho e Agosto de 2020</p></Link>
                                     </div>
                                  </div>
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/006435344f44950abb34f?authid=y35kiMz3yHMJ"><img src="images/ed109.jpg" />
+                                       <Link href="https://pt.calameo.com/read/006435344f44950abb34f?authid=y35kiMz3yHMJ"><img src="images/ed109.jpg" />
                                           <h2><strong>Nr 109</strong></h2>
-                                          <p>Dezembro de 2019 a Junho de 2020</p></a>
+                                          <p>Dezembro de 2019 a Junho de 2020</p></Link>
                                     </div>
                                  </div>
                               </div>

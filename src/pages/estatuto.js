@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -111,7 +112,7 @@ export default function Home() {
                     dos Desportos, da Medicina Esportiva, do Lazer e do Patrimônio Histórico, Artístico
                     e Cultural.</p>
                   <p>&nbsp; VII – Promover atividades esportivas, recreativas e sociais.</p>
-                  <p><em>Para ler o restante do estatuto, clique <a href="documentos/estatuto.pdf">aqui</a>.</em></p>
+                  <p><em>Para ler o restante do estatuto, clique <Link href="documentos/estatuto.pdf">aqui</Link>.</em></p>
                   <h1>Regimento Interno</h1>
                   <h3>Capítulo-I Da Finalidade, do Objetivo, do Foro, da Obediência</h3>
                   <h4>Secão I- Da Finalidade</h4>
@@ -137,7 +138,7 @@ export default function Home() {
                     associados, todos e quaisquer praticantes de qualquer religião, credo político e
                     preferência de clubes. Não havendo qualquer tipo de discriminação de religião, raça,
                     credo político ou desportivo. </p>
-                  <p><em>Para conferir o restante do regimento interno clique <a href="documentos/regimento-interno.pdf">aqui</a>.</em></p>
+                  <p><em>Para conferir o restante do regimento interno clique <Link href="documentos/regimento-interno.pdf">aqui</Link>.</em></p>
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>
               </div>

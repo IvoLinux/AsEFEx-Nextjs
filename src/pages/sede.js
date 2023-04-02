@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -81,10 +82,10 @@ export default function Home() {
                     <section className="module-section">
                       <div className="span4 no-margin">
                         <h2>
-                          <a href="#">Sobre a Sede</a>
+                          <Link href="#">Sobre a Sede</Link>
                         </h2>
                         <p>A sede da AsEFEx - Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército fica na Fortaleza de São João, no bairro das Urca, no Rio de Janeiro-RJ, em dependências sob cessão do Centro de Capacitação Física do Exército Brasileiro.</p>
-                        <p>Para saber mais sobre a localização da AsEFEx, <a href="https://goo.gl/maps/N53Y6ugWhxis7Lmm7">clique aqui </a>.</p>
+                        <p>Para saber mais sobre a localização da AsEFEx, <Link href="https://goo.gl/maps/N53Y6ugWhxis7Lmm7">clique aqui </Link>.</p>
                       </div>
                       {/* fim .span4 */}
                       <div className="span8">

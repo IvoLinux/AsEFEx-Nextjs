@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -129,10 +130,10 @@ export default function Home() {
                     propósito de UNIR SEMPRE OS “CALÇÕES PRETOS”, seja por todo o Brasil e fora dele
                     também.</strong></em> </p>
                   <p>Ainda no ano de 1990, o Presidende da AsEFEx, Coronel Osires Cardoso Labatut Rodrigues,
-                    escreveu o artigo <a href="https://revistadeeducacaofisica.emnuvens.com.br/revista/article/view/2572/2748">“Surge
-                      a AsEFEx - Uma Aliada Leal”</a>, deixando o registro histórico da criação da
-                    Associação na <a href="https://www.revistadeeducacaofisica.com/">Revista de Educação
-                      Física</a>, relevante publicação na área da Educação Física no Brasil, desde 1932.
+                    escreveu o artigo <Link href="https://revistadeeducacaofisica.emnuvens.com.br/revista/article/view/2572/2748">“Surge
+                      a AsEFEx - Uma Aliada Leal”</Link>, deixando o registro histórico da criação da
+                    Associação na <Link href="https://www.revistadeeducacaofisica.com/">Revista de Educação
+                      Física</Link>, relevante publicação na área da Educação Física no Brasil, desde 1932.
                   </p>
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>

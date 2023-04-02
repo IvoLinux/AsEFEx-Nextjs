@@ -4,29 +4,29 @@ import Link from 'next/link'
 function Menu() {
    return (
       <div id="navigation" className="span3">
-         <a href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</a>
+         <Link href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</Link>
          <section id="navigation-section">
             <span className="hide">Início do menu principal</span>
             <nav className="span9 sobre">
                <h2>Sobre a AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/historico" title="Histórico">»Histórico</a>
+                     <Link href="/historico" title="Histórico">»Histórico</Link>
                   </li>
                   <li>
-                     <a href="/institucional" title="Institucional">»Institucional</a>
+                     <Link href="/institucional" title="Institucional">»Institucional</Link>
                   </li>
                   <li>
-                     <a href="/diretoria-executiva" title="Diretoria Executiva">»Diretoria Executiva</a>
+                     <Link href="/diretoria-executiva" title="Diretoria Executiva">»Diretoria Executiva</Link>
                   </li>
                   <li>
-                     <a href="/conselhos" title="Conselheiros">»Conselheiros</a>
+                     <Link href="/conselhos" title="Conselheiros">»Conselheiros</Link>
                   </li>
                   <li>
-                     <a href="/estatuto" title="Estatuto">»Estatuto</a>
+                     <Link href="/estatuto" title="Estatuto">»Estatuto</Link>
                   </li>
                   <li>
-                     <a href="/sede" title="Sede">»Sede</a>
+                     <Link href="/sede" title="Sede">»Sede</Link>
                   </li>
                </ul>
             </nav>
@@ -34,36 +34,36 @@ function Menu() {
                <h2>Área do Associado <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/galeria-as" title="Galeria de Associados">»Galeria de Associados</a>
+                     <Link href="/galeria-as" title="Galeria de Associados">»Galeria de Associados</Link>
                   </li>
                   <li>
-                     <a href="/cadastro" title="Atualize seu Cadastro">»Atualize seu Cadastro</a>
+                     <Link href="/cadastro" title="Atualize seu Cadastro">»Atualize seu Cadastro</Link>
                   </li>
                   <li>
-                     <a href="/seja-associado" title="Seja um Associado">»Seja um Associado</a>
+                     <Link href="/seja-associado" title="Seja um Associado">»Seja um Associado</Link>
                   </li>
                   <li>
-                     <a href="/comprovante" title="Envio do Comprovante de Pagamento">»Envio do Comprovante de Pagamento</a>
+                     <Link href="/comprovante" title="Envio do Comprovante de Pagamento">»Envio do Comprovante de Pagamento</Link>
                   </li>
                </ul>
             </nav>
             <nav className="span9 galeria-ex">
                <h2>Galeria de Ex-Alunos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
-                  <li><a href="/galeria-ex" title="Acessar Galeria">»Acessar Galeria</a></li>
+                  <li><Link href="/galeria-ex" title="Acessar Galeria">»Acessar Galeria</Link></li>
                </ul>
             </nav>
             <nav className="span9 publicações">
                <h2>Publicações AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/revista" title="Revista AsEFEx">»Revista AsEFEx</a>
+                     <Link href="/revista" title="Revista AsEFEx">»Revista AsEFEx</Link>
                   </li>
                   <li>
-                     <a href="/informativo" title="Informativo AsEFEx">»Informativo AsEFEx</a>
+                     <Link href="/informativo" title="Informativo AsEFEx">»Informativo AsEFEx</Link>
                   </li>
                   <li>
-                     <a href="/escreva" title="Escreva na Revista da AsEFEx">»Escreva na Revista da AsEFEx</a>
+                     <Link href="/escreva" title="Escreva na Revista da AsEFEx">»Escreva na Revista da AsEFEx</Link>
                   </li>
                </ul>
             </nav>
@@ -72,19 +72,19 @@ function Menu() {
                </h2>
                <ul>
                   <li>
-                     <a href="/esporte" title="Esporte">»Esporte</a>
+                     <Link href="/esporte" title="Esporte">»Esporte</Link>
                   </li>
                   <li>
-                     <a href="/cursos" title="Cursos">»Cursos</a>
+                     <Link href="/cursos" title="Cursos">»Cursos</Link>
                   </li>
                   <li>
-                     <a href="/eventos_sociais_2021" title="Eventos Sociais">»Eventos Sociais </a>
+                     <Link href="/eventos_sociais_2021" title="Eventos Sociais">»Eventos Sociais </Link>
                   </li>
                   <li>
-                     <a href="/eventos_realizados" title="Galeria de Eventos Realizados">»Galeria de Eventos Realizados</a>
+                     <Link href="/eventos_realizados" title="Galeria de Eventos Realizados">»Galeria de Eventos Realizados</Link>
                   </li>
                   <li>
-                     <a href="/proposta_evento" title="Faça sua Proposta de Evento">»Faça sua Proposta de Evento</a>
+                     <Link href="/proposta_evento" title="Faça sua Proposta de Evento">»Faça sua Proposta de Evento</Link>
                   </li>
                </ul>
             </nav>
@@ -92,10 +92,10 @@ function Menu() {
                <h2>Medalha Mérito Esportivo AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/medalha" title="A Medalha">»A Medalha</a>
+                     <Link href="/medalha" title="A Medalha">»A Medalha</Link>
                   </li>
                   <li>
-                     <a href="/galeria-medalha" title="Galeria de Agraciados">»Galeria de Agraciados</a>
+                     <Link href="/galeria-medalha" title="Galeria de Agraciados">»Galeria de Agraciados</Link>
                   </li>
                </ul>
             </nav>
@@ -103,10 +103,10 @@ function Menu() {
                <h2>Transparência <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/relatorio_fin" title="Relatórios Financeiros">»Relatórios Financeiros </a>
+                     <Link href="/relatorio_fin" title="Relatórios Financeiros">»Relatórios Financeiros </Link>
                   </li>
                   <li>
-                     <a href="/relatorio_fin_ant" title="Relatórios Financeiros de Anos Anteriores">»Relatórios Financeiros de Anos Anteriores</a>
+                     <Link href="/relatorio_fin_ant" title="Relatórios Financeiros de Anos Anteriores">»Relatórios Financeiros de Anos Anteriores</Link>
                   </li>
                </ul>
             </nav>
@@ -114,20 +114,20 @@ function Menu() {
                <h2>Central de Conteúdos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/downloads" className="audios" title="Downloads">
+                     <Link href="/downloads" className="audios" title="Downloads">
                         <span className="icon-li icon-stack">
                            <i className="icon-circle icon-stack-base"><span className="hide">&nbsp;</span></i>
                            <i className="icon-arrow-down icon-light"><span className="hide">&nbsp;</span></i>
                         </span>Downloads
-                     </a>
+                     </Link>
                   </li>
                   <li>
-                     <a href="/links" className="publicacoes" title="Links">
+                     <Link href="/links" className="publicacoes" title="Links">
                         <span className="icon-li icon-stack">
                            <i className="icon-circle icon-stack-base"><span className="hide">&nbsp;</span></i>
                            <i className="icon-list icon-light"><span className="hide">&nbsp;</span></i>
                         </span>Links Úteis
-                     </a>
+                     </Link>
                   </li>
                </ul>
             </nav>
@@ -135,10 +135,10 @@ function Menu() {
                <h2>Fale Conosco <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                <ul>
                   <li>
-                     <a href="/fale-conosco" title="Contato">»Contato</a>
+                     <Link href="/fale-conosco" title="Contato">»Contato</Link>
                   </li>
                   <li>
-                     <a href="/perguntas_freq" title="Perguntas Frequentes">»Perguntas Frequentes</a>
+                     <Link href="/perguntas_freq" title="Perguntas Frequentes">»Perguntas Frequentes</Link>
                   </li>
                </ul>
             </nav>

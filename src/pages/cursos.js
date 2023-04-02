@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -79,7 +80,7 @@ export default function Home() {
                   <p> Não há cursos oferecidos pela AsEFEx no momento. </p>
                   <p>Os Associados e Amigos podem verificar condições especiais de matrícula nas instituições parceiras da AsEFEx:</p>
                   <div style={{ margin: '1cm 6cm 1cm 6cm' }}>
-                    <a href="http://www.castelobranco.br/"><img alt="Universidade Castelo Branco" src="images/castelo_branco.png" style={{ maxWidth: 310, maxHeight: 200, width: 'auto', height: 'auto' }} /></a>
+                    <Link href="http://www.castelobranco.br/"><img alt="Universidade Castelo Branco" src="images/castelo_branco.png" style={{ maxWidth: 310, maxHeight: 200, width: 'auto', height: 'auto' }} /></Link>
                   </div>
                   <p>- Mensalidades diferenciadas em cursos de graduação e pós-graduação na Universidade Castelo Branco</p>
                   <span className="hide">Fim do conteúdo da página</span>

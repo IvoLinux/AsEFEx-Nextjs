@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -88,7 +89,7 @@ export default function Home() {
                   <p>Excepcionalmente, a Medalha Mérito Desportivo AsEFEx é concedida a qualquer autoridade
                     ou dirigente desportivo que tenha produzido relevantes serviços ao Desporto Nacional.</p>
                   {/* <p><strng>As normas para a concessão da Medalha Mérito Desportivo AsEFEx podem ser acessadas
-                <a href="#">nesse link.</a></strng></p> */}
+                <Link href="#">nesse link.</Link></strng></p> */}
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>
               </div>

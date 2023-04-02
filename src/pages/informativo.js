@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -58,9 +59,9 @@ export default function Home() {
          </noscript>
 
          <div id="barra-brasil">
-            <a href="http://brasil.gov.br"
+            <Link href="http://brasil.gov.br"
                title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-               Governo Brasileiro</a>
+               Governo Brasileiro</Link>
          </div>
 
          <div className="layout">
@@ -82,7 +83,7 @@ export default function Home() {
                               e ao Sitio Histórico da Fortaleza de São João.</p>
                            <p>
                               {/* <Link href="/escreva">
-                                 <a>Faça sua proposta de material para divulgação no informativo da AsEFEx</a>
+                                 <Link>Faça sua proposta de material para divulgação no informativo da AsEFEx</Link>
                               </Link> */}
                            </p>
                            <h2>Edições de 2021</h2>
@@ -90,16 +91,16 @@ export default function Home() {
                               <div className="row">
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/0064353440d972455e25a?authid=7B9aI7IM9Xtj"><img src="images/inf7.jpg" />
+                                       <Link href="https://pt.calameo.com/read/0064353440d972455e25a?authid=7B9aI7IM9Xtj"><img src="images/inf7.jpg" />
                                           <h2><strong>Nr 7</strong></h2>
-                                          <p>Março de 2021</p></a>
+                                          <p>Março de 2021</p></Link>
                                     </div>
                                  </div>
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/0064353449390a814238a?authid=Yp3x6jRywMEz"><img src="images/inf6.jpg" />
+                                       <Link href="https://pt.calameo.com/read/0064353449390a814238a?authid=Yp3x6jRywMEz"><img src="images/inf6.jpg" />
                                           <h2><strong>Nr 6</strong></h2>
-                                          <p>Janeiro e Fevereiro de 2021</p></a>
+                                          <p>Janeiro e Fevereiro de 2021</p></Link>
                                     </div>
                                  </div>
                               </div>
@@ -109,9 +110,9 @@ export default function Home() {
                               <div className="row">
                                  <div className="span4">
                                     <div className=" card">
-                                       <a href="https://pt.calameo.com/read/006435344a40c41d3fff8?authid=26lYHD30S0hJ"><img src="images/inf5.jpg" />
+                                       <Link href="https://pt.calameo.com/read/006435344a40c41d3fff8?authid=26lYHD30S0hJ"><img src="images/inf5.jpg" />
                                           <h2><strong>Nr 5</strong></h2>
-                                          <p>Novembro e Dezembro de 2020</p></a>
+                                          <p>Novembro e Dezembro de 2020</p></Link>
                                     </div>
                                  </div>
                               </div>

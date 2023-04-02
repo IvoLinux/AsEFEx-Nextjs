@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -57,9 +58,9 @@ export default function Home() {
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -81,16 +82,16 @@ export default function Home() {
                     <div className="row">
                       <div className="span4">
                         <div className=" card">
-                          <a href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/"><img src="images/facebook.png" />
+                          <Link href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/"><img src="images/facebook.png" />
                             <h2><strong>Facebook</strong></h2>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="span4">
                         <div className=" card">
-                          <a href="https://www.instagram.com/asefex1990_desportoexercito/"><img src="images/instagram.png" />
+                          <Link href="https://www.instagram.com/asefex1990_desportoexercito/"><img src="images/instagram.png" />
                             <h2><strong>Instagram</strong></h2>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
@@ -136,9 +137,9 @@ q
       </noscript>
 
       <div id="barra-brasil">
-        <a href="http://brasil.gov.br"
+        <Link href="http://brasil.gov.br"
           title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</a>
+          Governo Brasileiro</Link>
       </div>
 
       <div className="layout">
@@ -221,12 +222,12 @@ q
                 </div>
 
                 <div className="span4 icones">
-                  <a title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
-                    <i className="icon-facebook-sign"><span>Facebook</span></i></a>
+                  <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
+                    <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
                 </div>
                 <div className="span4 icones">
-                  <a title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
-                    <i className="icon-instagram"><span>Instagram</span></i></a>
+                  <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
+                    <i className="icon-instagram"><span>Instagram</span></i></Link>
                 </div>
 
               </div>
