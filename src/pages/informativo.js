@@ -6,7 +6,6 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home() {
    return (
