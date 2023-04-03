@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Image from 'next/image'
 import Link from 'next/link'
 import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
-import styles from '../styles/Home.module.css'
+import BarraGov from '@/components/BarraGov'
 
 export default function Home() {
   return (
@@ -57,13 +56,8 @@ export default function Home() {
         </div>
       </noscript>
 
-      <div id="barra-brasil">
-        <Link href="http://brasil.gov.br"
-          title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-          Governo Brasileiro</Link>
-      </div>
-
       <div className="layout">
+        <BarraGov />
         <header>
           <Header />
         </header>
@@ -96,8 +90,6 @@ export default function Home() {
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"
       />
-      <Script src="http://barra.brasil.gov.br/barra.js?cor=verde" type="text/javascript" /><noscript>&nbsp;
-      </noscript>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import Header from '@/components/header'
 import Menu from '@/components/menu'
 import Footer from '@/components/footer'
 import Script from 'next/script'
+import BarraGov from '@/components/BarraGov'
 
 export default function Acessibilidade() {
    return (
@@ -56,12 +57,8 @@ export default function Acessibilidade() {
             </div>
          </noscript>
 
-         <div id="barra-brasil">
-            <Link href="http://brasil.gov.br"
-               title="Acesse para conhecer todos os serviços e informações do Governo Brasileiro na Internet.">Portal do
-               Governo Brasileiro</Link>
-         </div>
          <div className="layout">
+            <BarraGov />
             <header>
                <Header />
             </header>
@@ -138,7 +135,6 @@ export default function Acessibilidade() {
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossorigin="anonymous"
          />
-         <Script src="http://barra.brasil.gov.br/barra.js?cor=verde" type="text/javascript" />
       </div>
    )
 }
