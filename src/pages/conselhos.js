@@ -72,37 +72,35 @@ export default function Home() {
                   <h2>CONSELHO DELIBERATIVO</h2>
                   <p><strong>Presidente:</strong></p>
                   <ul className="lista">
-                    <li>Cargo Vago</li>
+                    <li><b>Cel</b> Rogerio Rodrigues Dias</li>
                   </ul>
                   <p><strong>Membros Efetivos:</strong> </p>
                   <ul className="lista">
-                    <li>Cel Arthur Telles Cramer Ribeiro</li>
-                    <li>Cel Evandro Souto Maior	</li>
-                    <li>Cel Gilberto Guedes Pereira</li>
-                    <li>Cel Hamilton Lima da Rocha Callado</li>
-                    <li>Cel João Belém de Hollanda</li>
-                    <li>Profa Maria Elisa Maciel de Oliveira Acker </li>
-                    <li>Cel Bomb Nilton de Barros Junior </li>
+                    <li><b>Cel</b> Paulo Roberto de Miranda Barros</li>
+                    <li><b>Cel</b> Jorge Luiz Soares Ribeiro</li>
+                    <li><b>Cel</b> Marco Aurelio Souto de Araújo</li>
+                    <li><b>Cel</b> Carlos Eduardo Ilha dos Santos</li>
+                    <li><b>Cel</b> Luiz Fernando Medeiros Nóbrega</li>
+                    <li><b>Cel</b> Alexandre Tempesta Lincoln</li>
                   </ul>
                   <p><strong>Suplentes:</strong> </p>
                   <ul className="lista">
-                    <li>Cel Hamilton Lima da Rocha Callado</li>
-                    <li>Cel Marco Aurélio Souto de Araújo</li>
+                    <li><b>Cel</b> Marco Aurélio Baptista</li>
+                    <li><b>Cel</b> PM Carlos Eduardo Hespanha Matt</li>
                   </ul>
                   <h2>CONSELHO FISCAL</h2>
                   <p><strong>Presidente:</strong></p>
                   <ul className="lista">
-                    <li> Cel Alberto César Álvares Fernandes</li>
+                    <li><b>Cel</b>  Alberto César Álvares Fernandes</li>
                   </ul>
                   <p><strong>Membros Efetivos:</strong> </p>
                   <ul className="lista">
-                    <li>Sr. Expedito Máximo Bezerra	</li>
-                    <li>Prof Gilson Fernandes Tavares</li>
-                    <li>Ten Vicente Pawelec</li>
+                    <li><b>Ten</b> Vicente Pawelec</li>
+                    <li><b>Sr.</b> Adilson Soares Barbosa</li>
                   </ul>
                   <p><strong>Suplentes:</strong> </p>
                   <ul className="lista">
-                    <li>Prof Gilson Fernandes Tavares</li>
+                    <li><b>Sr.</b> Francisco Henrique Fauth</li>
                   </ul>
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>

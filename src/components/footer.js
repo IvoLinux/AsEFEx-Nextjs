@@ -123,8 +123,11 @@ function Footer() {
          </div>
          <div className="footer-ferramenta">
             <div className="container">
-               <p>Site desenvolvido em parceria com a empresa júnior <Link href="https://imejunior.com.br/?gclid=CjwKCAiAo5qABhBdEiwAOtGmbunns7N22hr1ixaTe6DrGL9vlz8M_DndcTc0pQr53zk_-ddVIBDX5xoCXG4QAvD_BwE">IME
-                  Júnior</Link></p>
+               <p>Site desenvolvido em parceria com a empresa júnior 
+                  <Link style={{color: '#0088CC'}} href="https://imejunior.com.br/?gclid=CjwKCAiAo5qABhBdEiwAOtGmbunns7N22hr1ixaTe6DrGL9vlz8M_DndcTc0pQr53zk_-ddVIBDX5xoCXG4QAvD_BwE">
+                     IME Júnior
+                  </Link>
+               </p>
             </div>
          </div>
          <div className="footer-atalhos visible-phone">
