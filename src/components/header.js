@@ -47,7 +47,7 @@ function Header() {
 						</ul>	 */}
                   <ul id="portal-siteactions" className="pull-right">
                      <li>
-                        <Link accessKey={5} href="interna-acessibilidade.html">Acessibilidade</Link>
+                        <Link accessKey={5} href="acessibilidade">Acessibilidade</Link>
                      </li>
                      <li>
                         <Link accessKey={6} href="#" className="toggle-contraste">Alto Contraste</Link>

@@ -664,6 +664,15 @@ main #navigation .central-conteudos .icon-volume-up {
   font-size: 18px !important;
   margin-left: 1px !important;
 }
+main .description {
+  display: block;
+  font-size: 1.1em;
+  margin: 0 0 35px;
+  color: #666;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-size: 1.18em;
+}
 footer {
   background: #034811;
 }
