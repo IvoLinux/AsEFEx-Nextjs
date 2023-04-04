@@ -11,7 +11,7 @@ function Cadastro() {
     <div>
       <Head>
         <meta charset="utf-8" />
-        <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página Inicial</title>
+        <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página de Atualização de Cadastro</title>
         {/*<base href="" />*/}
         <meta name="keywords" content="" />
         <meta name="author" content="IME Júnior" />
