@@ -50,7 +50,7 @@ function Header() {
                         <Link accessKey={5} href="acessibilidade">Acessibilidade</Link>
                      </li>
                      <li>
-                        <Link accessKey={6} href="#" className="toggle-contraste">Alto Contraste</Link>
+                        <a accessKey={6} href="#" className="toggle-contraste">Alto Contraste</a>
                      </li>
                      <li>
                         <Link accessKey={7} href="#">Mapa do Site</Link>

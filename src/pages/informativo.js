@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Link from 'next/link'
-import Header from '../components/header'
-import Menu from '../components/menu'
-import Footer from '../components/footer'
+import Header from '../modules/header'
+import Menu from '../modules/menu'
+import Footer from '../modules/footer'
 import BarraGov from '@/components/BarraGov'
-import CardLink from '@/components/CardLink'
+import Card from '@/components/Card'
 
 export default function Home() {
    return (
@@ -81,17 +81,17 @@ export default function Home() {
                            <h2>Edições de 2021</h2>
                            <div className="container">
                               <div className="row">
-                                 <CardLink title="Nr 7" image="images/inf7.jpg" description="Março de 2021"
+                                 <Card title="Nr 7" image="images/inf7.jpg" description="Março de 2021"
                                     route="https://pt.calameo.com/read/0064353440d972455e25a?authid=7B9aI7IM9Xtj" />
 
-                                 <CardLink title="Nr 6" image="images/inf6.jpg" description="Janeiro e Fevereiro de 2021"
+                                 <Card title="Nr 6" image="images/inf6.jpg" description="Janeiro e Fevereiro de 2021"
                                     route="https://pt.calameo.com/read/0064353449390a814238a?authid=Yp3x6jRywMEz" />
                               </div>
                            </div>
                            <h2>Edições de 2020</h2>
                            <div className="container">
                               <div className="row">
-                                 <CardLink title="Nr 5" image="images/inf5.jpg" description="Novembro e Dezembro de 2020"
+                                 <Card title="Nr 5" image="images/inf5.jpg" description="Novembro e Dezembro de 2020"
                                     route="https://pt.calameo.com/read/006435344a40c41d3fff8?authid=26lYHD30S0hJ" />
                               </div>
                            </div>

@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Link from 'next/link'
-import Header from '../components/header'
-import Menu from '../components/menu'
-import Footer from '../components/footer'
+import Header from '../modules/header'
+import Menu from '../modules/menu'
+import Footer from '../modules/footer'
 import BarraGov from '@/components/BarraGov'
 
 function Cadastro() {

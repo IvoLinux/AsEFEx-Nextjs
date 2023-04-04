@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Header from '../components/header'
-import Menu from '../components/menu'
-import Footer from '../components/footer'
+import Header from '../modules/header'
+import Menu from '../modules/menu'
+import Footer from '../modules/footer'
 import BarraGov from '@/components/BarraGov'
-import CardNoLink from '@/components/CardNoLink'
+import Card from '@/components/Card'
 
 export default function Home() {
   return (
@@ -73,45 +73,44 @@ export default function Home() {
                   <div className="container">
 
                     <div className="row">
-                      <CardNoLink title="Presidente" image="images/presidente.png"
+                      <Card title="Presidente" image="images/presidente.png"
                         description={<><b>Cel</b> Josué Morisson de Moraes</>} />
-                      <CardNoLink title="Vice-Presidente" image="images/vicepresidente.png"
+                      <Card title="Vice-Presidente" image="images/vicepresidente.png"
                         description={<><b>Cel</b> Mauro Benedito Guaraldo Secco</>} />
                     </div>
 
                     <div className="row">
-                      <CardNoLink title="Diretor Administrativo" image="images/DirExec_Generica.png"
+                      <Card title="Diretor Administrativo" image="images/DirExec_Generica.png"
                         description={<><b>Ten</b> Cleber das Neves Tourinho</>} />
-                      <CardNoLink title="Diretor de Planejamento e Controle" image="images/diretorplanejamento.png"
+                      <Card title="Diretor de Planejamento e Controle" image="images/diretorplanejamento.png"
                         description={<><b>Cel</b> Antonio Fernando Araújo Duarte</>} />
                     </div>
 
                     <div className="row">
-                      <CardNoLink title="Diretor de Comunicação Social" image="images/diretorcomunicacao.png"
+                      <Card title="Diretor de Comunicação Social" image="images/diretorcomunicacao.png"
                         description={<><b>Ten Cel</b> Flavio Gomes Ferreira Pinto</>} />
-                      <CardNoLink title="Diretor Cultural" image="images/diretorcultural.png"
+                      <Card title="Diretor Cultural" image="images/diretorcultural.png"
                         description={<><b>Cel</b> Joel Francisco Correa</>} />
                     </div>
 
                     <div className="row">
-                      <CardNoLink title="Diretor para Esporte e Eventos" image="images/diretoresportes.jpg"
+                      <Card title="Diretor para Esporte e Eventos" image="images/diretoresportes.jpg"
                         description={<><b>Ten Cel</b> André Valentim Siqueira Rodrigues</>} />
-                      <CardNoLink title="Diretor Financeiro e de Patrimônio" image="images/diretorfinanceiro.png"
+                      <Card title="Diretor Financeiro e de Patrimônio" image="images/diretorfinanceiro.png"
                         description={<><b>Cel</b> Mário Vilá Pitaluga Filho</>} />
                     </div>
 
                     <div className="row">
-                      <CardNoLink title="Assessor" image="images/DirExec_Generica.png"
+                      <Card title="Assessor" image="images/DirExec_Generica.png"
                         description={<><b>Cap</b> Ricardo Correa Neves</>} />
-                      <CardNoLink title="Assessor" image="images/DirExec_Generica.png"
+                      <Card title="Assessor" image="images/DirExec_Generica.png"
                         description={<><b>Ten</b> Augusto Antônio Munck</>} />
                     </div>
 
                     <div className="row">
-                      <CardNoLink title="Assessor" image="images/DirExec_Generica.png"
+                      <Card title="Assessor" image="images/DirExec_Generica.png"
                         description={<><b>Ten</b> Jorge Ferreira da Purificação</>} />
                     </div>
-
                   </div>
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>
