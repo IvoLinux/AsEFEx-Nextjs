@@ -2,6 +2,29 @@ import Link from 'next/link'
 import React from 'react'
 
 function Header() {
+   const [contraste, setContraste] = React.useState(false);
+   var loaded = false
+
+   // Verifica localStorage pra ver se contraste armazenado == true
+   React.useEffect(() => {
+      var storedContraste = JSON.parse(localStorage.getItem('contraste'))
+      if(storedContraste == true){
+         setContraste(localStorage.getItem('contraste'))
+         loaded = true
+      }
+   }, [])
+
+   // Se contraste armazenado == true (loaded == true), ignora o useEffect (se nao o setContraste de cima ativa esse, invertendo o contraste armazenado)
+   React.useEffect(() => {
+      var element = document.querySelector(".layout")
+      if(loaded == true) loaded = false
+      else{
+         if (contraste) element.classList.add("contraste")
+         else element.classList.remove("contraste")
+      }
+      window.localStorage.setItem('contraste', contraste)
+   }, [contraste])
+
    return (
       <div>
          <div className="container">
@@ -50,7 +73,7 @@ function Header() {
                         <Link accessKey={5} href="acessibilidade">Acessibilidade</Link>
                      </li>
                      <li>
-                        <a accessKey={6} href="#" className="toggle-contraste">Alto Contraste</a>
+                        <Link onClick={() => { setContraste(!contraste) }} accessKey={6} href="#" className="toggle-contraste">Alto Contraste</Link>
                      </li>
                      <li>
                         <Link accessKey={7} href="#">Mapa do Site</Link>

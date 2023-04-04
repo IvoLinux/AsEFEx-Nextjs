@@ -170,7 +170,7 @@ export default function Home() {
                                  </div>
                                  <Link href="http://www.ccfex.eb.mil.br/ultimas-noticias/917-aniversario-de-402-anos-da-fortaleza-de-sao-joao-24-jun-1618" className="img-rounded"><img src="images/noticia3.png" alt="CCFEx" /></Link>
                                  <h2><Link href="http://www.ccfex.eb.mil.br/ultimas-noticias/917-aniversario-de-402-anos-da-fortaleza-de-sao-joao-24-jun-1618"><strong>Aniversário de 402 anos da Fortaleza de São João</strong></Link></h2>
-                                 <p>Saiba um pouco mais sobre esse pedaço da história nacioal.</p>
+                                 <p>Saiba um pouco mais sobre esse pedaço da história nacional.</p>
                               </div>
                            </div>
                            {/* fim .row-fluid */}
