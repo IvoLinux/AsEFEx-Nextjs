@@ -5,6 +5,7 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
 import BarraGov from '@/components/BarraGov'
+import CardLink from '@/components/CardLink'
 
 export default function Home() {
    return (
@@ -76,63 +77,56 @@ export default function Home() {
                               ao CCFEx e suas Organizações Militares Diretamente Subordinadas (EsEFEx, IPCFEx e CDE)
                               e ao Sitio Histórico da Fortaleza de São João. </p>
                            <p>
-                              {/* <Link href="/escreva">
-                                 <Link>Faça sua proposta de matéria para publicação na Revista da AsEFEx.</Link>
-                              </Link> */}
+                              <Link style={{ color: '#0088CC' }} href="/escreva">Faça sua proposta de matéria para publicação na Revista da AsEFEx.</Link>
                            </p>
+
+                           <h2>Edições 2022</h2>
+                           <div className="container">
+                              <div className="row">
+                                 <CardLink title="Nr 117" image="images/ed117.jpg" description="Janeiro a Março de 2022"
+                                    route="https://pt.calameo.com/read/006435344567665a09633?authid=e15gBQsiCu7E" />
+                              </div>
+                           </div>
+
                            <h2>Edições 2021</h2>
                            <div className="container">
                               <div className="row">
-                                 <div className="span4">
-                                    <div className=" card">
-                                       <Link href="https://pt.calameo.com/read/006435344d3a13a215c69?authid=G7WRiQYJICNf"><img src="images/ed114.jpg" />
-                                          <h2><strong>Nr 114</strong></h2>
-                                          <p>Abril e Junho de 2021</p></Link>
-                                    </div>
-                                 </div>
-                                 <div className="span4">
-                                    <div className=" card">
-                                       <Link href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw"><img src="images/ed113.jpg" />
-                                          <h2><strong>Nr 113</strong></h2>
-                                          <p>Dezembro de 2020</p></Link>
-                                    </div>
-                                 </div>
+                                 <CardLink title="Nr 116" image="images/ed116.jpg" description="Outubro a Dezembro de 2021"
+                                    route="https://pt.calameo.com/read/006435344e3ff145ebcc5?authid=IcwOmLTWn2AD" />
+
+                                 <CardLink title="Nr 115" image="images/ed115.jpg" description="Julho a Setembro de 2021"
+                                    route="https://pt.calameo.com/read/006435344f848ad6cf41a?authid=s9AUDEJk0ONc" />
+                              </div>
+
+                              <div className="row">
+                                 <CardLink title="Nr 114" image="images/ed114.jpg" description="Abril a Junho de 2021"
+                                    route="https://pt.calameo.com/read/006435344d3a13a215c69?authid=G7WRiQYJICNf" />
+
+                                 <CardLink title="Nr 113" image="images/ed113.jpg" description="Dezembro de 2020"
+                                    route="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw" />
                               </div>
                            </div>
+
+
                            <h2>Edições 2020</h2>
                            <div className="container">
                               <div className="row">
-                                 <div className="span4">
-                                    <div className=" card">
-                                       <Link href="https://pt.calameo.com/read/00643534419b2d0f41807?authid=4GXev9E6EqlB"><img src="images/ed112.jpg" />
-                                          <h2><strong>Nr 112</strong></h2>
-                                          <p>Novembro e Dezembro de 2020</p></Link>
-                                    </div>
-                                 </div>
-                                 <div className="span4">
-                                    <div className=" card">
-                                       <Link href="https://pt.calameo.com/read/006435344e04bab2bf544?authid=lZcaNNaCa7AH"><img src="images/ed111.jpg" />
-                                          <h2><strong>Nr 111</strong></h2>
-                                          <p>Setembro e Outubro de 2020</p></Link>
-                                    </div>
-                                 </div>
+                                 <CardLink title="Nr 112" image="images/ed112.jpg" description="Novembro a Dezembro de 2020"
+                                    route="https://pt.calameo.com/read/00643534419b2d0f41807?authid=4GXev9E6EqlB" />
+
+                                 <CardLink title="Nr 111" image="images/ed111.jpg" description="Setembro a Outubro de 2020"
+                                    route="https://pt.calameo.com/read/006435344e04bab2bf544?authid=lZcaNNaCa7AH" />
                               </div>
+
+
                               <div className="row">
-                                 <div className="span4">
-                                    <div className=" card">
-                                       <Link href="https://pt.calameo.com/read/0064353445b120d4cc41d?authid=y3M87gniA4Ak"><img src="images/ed110.jpg" />
-                                          <h2><strong>Nr 110</strong></h2>
-                                          <p>Julho e Agosto de 2020</p></Link>
-                                    </div>
-                                 </div>
-                                 <div className="span4">
-                                    <div className=" card">
-                                       <Link href="https://pt.calameo.com/read/006435344f44950abb34f?authid=y35kiMz3yHMJ"><img src="images/ed109.jpg" />
-                                          <h2><strong>Nr 109</strong></h2>
-                                          <p>Dezembro de 2019 a Junho de 2020</p></Link>
-                                    </div>
-                                 </div>
+                                 <CardLink title="Nr 110" image="images/ed110.jpg" description="Julho a Agosto de 2020"
+                                    route="https://pt.calameo.com/read/0064353445b120d4cc41d?authid=y3M87gniA4Ak" />
+
+                                 <CardLink title="Nr 109" image="images/ed109.jpg" description="Dezembro de 2019 a Junho de 2020"
+                                    route="https://pt.calameo.com/read/006435344f44950abb34f?authid=y35kiMz3yHMJ" />
                               </div>
+
                            </div>
                            <span className="hide">Fim do conteúdo da página</span>
                         </section>

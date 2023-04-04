@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
 import BarraGov from '@/components/BarraGov'
+import CardNoLink from '@/components/CardNoLink'
 
 export default function Home() {
   return (
@@ -72,103 +73,43 @@ export default function Home() {
                   <div className="container">
 
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/presidente.png" />
-                          <h2><strong>Presidente</strong></h2>
-                          <p><b>Cel</b> Josué Morisson de Moraes</p>
-                        </div>
-                      </div>
-
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/vicepresidente.png" />
-                          <h2><strong>Vice-Presidente</strong></h2>
-                          <p><b>Cel</b> Mauro Benedito Guaraldo Secco</p>
-                        </div>
-                      </div>
+                      <CardNoLink title="Presidente" image="images/presidente.png"
+                        description={<><b>Cel</b> Josué Morisson de Moraes</>} />
+                      <CardNoLink title="Vice-Presidente" image="images/vicepresidente.png"
+                        description={<><b>Cel</b> Mauro Benedito Guaraldo Secco</>} />
                     </div>
 
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/DirExec_Generica.png" />
-                          <h2><strong>Diretor Administrativo</strong></h2>
-                          <p><b>Ten</b> Cleber das Neves Tourinho</p>
-                        </div>
-                      </div>
-
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/diretorplanejamento.png" />
-                          <h2><strong>Diretor de Planejamento e Controle</strong></h2>
-                          <p><b>Cel</b> Antonio Fernando Araújo Duarte</p>
-                        </div>
-                      </div>
+                      <CardNoLink title="Diretor Administrativo" image="images/DirExec_Generica.png"
+                        description={<><b>Ten</b> Cleber das Neves Tourinho</>} />
+                      <CardNoLink title="Diretor de Planejamento e Controle" image="images/diretorplanejamento.png"
+                        description={<><b>Cel</b> Antonio Fernando Araújo Duarte</>} />
                     </div>
 
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/diretorcomunicacao.png" />
-                          <h2><strong>Diretor de Comunicação Social</strong></h2>
-                          <p><b>Ten Cel</b> Flavio Gomes Ferreira Pinto</p>
-                        </div>
-                      </div>
-
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/diretorcultural.png" />
-                          <h2><strong>Diretor Cultural</strong></h2>
-                          <p><b>Cel</b> Joel Francisco Corrêa</p>
-                        </div>
-                      </div>
+                      <CardNoLink title="Diretor de Comunicação Social" image="images/diretorcomunicacao.png"
+                        description={<><b>Ten Cel</b> Flavio Gomes Ferreira Pinto</>} />
+                      <CardNoLink title="Diretor Cultural" image="images/diretorcultural.png"
+                        description={<><b>Cel</b> Joel Francisco Correa</>} />
                     </div>
 
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/diretoresportes.jpg" />
-                          <h2><strong>Diretor para Esporte e Eventos</strong></h2>
-                          <p><b>Ten Cel</b> André Valentim Siqueira Rodrigues</p>
-                        </div>
-                      </div>
-
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/diretorfinanceiro.png" />
-                          <h2><strong>Diretor Financeiro e de Patrimônio</strong></h2>
-                          <p><b>Cel</b> Mário Vilá Pitaluga Filho</p>
-                        </div>
-                      </div>
+                      <CardNoLink title="Diretor para Esporte e Eventos" image="images/diretoresportes.jpg"
+                        description={<><b>Ten Cel</b> André Valentim Siqueira Rodrigues</>} />
+                      <CardNoLink title="Diretor Financeiro e de Patrimônio" image="images/diretorfinanceiro.png"
+                        description={<><b>Cel</b> Mário Vilá Pitaluga Filho</>} />
                     </div>
 
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/DirExec_Generica.png" />
-                          <h2><strong>Assessor</strong></h2>
-                          <p><b>Cap</b> Ricardo Correa Neves</p>
-                        </div>
-                      </div>
-
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/DirExec_Generica.png" />
-                          <h2><strong>Assessor</strong></h2>
-                          <p><b>Ten</b> Augusto Antônio Munck</p>
-                        </div>
-                      </div>
+                      <CardNoLink title="Assessor" image="images/DirExec_Generica.png"
+                        description={<><b>Cap</b> Ricardo Correa Neves</>} />
+                      <CardNoLink title="Assessor" image="images/DirExec_Generica.png"
+                        description={<><b>Ten</b> Augusto Antônio Munck</>} />
                     </div>
 
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <img src="images/DirExec_Generica.png" />
-                          <h2><strong>Assessor</strong></h2>
-                          <p><b>Ten</b> Jorge Ferreira da Purificação</p>
-                        </div>
-                      </div>
+                      <CardNoLink title="Assessor" image="images/DirExec_Generica.png"
+                        description={<><b>Ten</b> Jorge Ferreira da Purificação</>} />
                     </div>
 
                   </div>
