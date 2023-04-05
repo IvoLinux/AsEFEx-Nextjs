@@ -146,13 +146,9 @@ export default function Home() {
                                  <div className="outstanding-header">
                                     <h2 className="outstanding-title">Homenagem</h2>
                                  </div>
-                                 {/* <Link href="/homenagem">
-                                    <Link className="img-rounded"><img src="images/noticia1.jpg" alt="Homenagem" /></Link>
-                                 </Link> */}
+                                    <Link href="../homenagem" className="img-rounded"><img src="images/noticia1.jpg" alt="Homenagem" /></Link>
                                  <h2>
-                                    {/* <Link href="/homenagem">
-                                       <Link><strong>Cel Noaldo: um Guerreiro, um Exemplo</strong></Link>
-                                    </Link> */}
+                                       <Link href="/homenagem"><strong>Cel Noaldo: um Guerreiro, um Exemplo</strong></Link>
                                  </h2>
                                  <p>A AsEFEx rende uma justa homenagem ao Cel Noaldo Alves da Silva</p>
                               </div>
