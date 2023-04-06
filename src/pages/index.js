@@ -183,13 +183,9 @@ export default function Home() {
                                  <div className="outstanding-header">
                                     <h2 className="outstanding-title">Seja um Associado da AsEFEx</h2>
                                  </div>
-                                 {/* <Link href="/seja-associado">
-                                    <Link><img src="images/associar.png" alt="Associe-se" style={{ maxWidth: 345, maxHeight: 204, height: 'auto', width: 'auto' }} /></Link>
-                                 </Link> */}
+                                    <Link href="/seja-associado"><img src="images/associar.png" alt="Associe-se" style={{ maxWidth: 345, maxHeight: 204, height: 'auto', width: 'auto' }} /></Link>
                                  <h2>
-                                    {/* <Link href="/seja-associado">
-                                       <Link><strong>Associe-se</strong></Link>
-                                    </Link> */}
+                                       <Link href="/seja-associado"><strong>Associe-se</strong></Link>
                                  </h2>
                                  <p>Preenchimento da ficha de inscrição.</p>
                               </div>
