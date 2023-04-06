@@ -85,17 +85,20 @@ function Filtro() {
             <div className={state.preenchido ? 'noAlert2' : 'alert alert-danger'}>
               <strong>Todos os campos devem ser preenchidos!</strong>
             </div>
+            {
+              state.existeDados ?
+                testContent.Tabela.map((val, index) => {
+                  return <div>
+                    <div><b>{val.Posto}</b> {val.Nome}</div>
+                    <div></div>
+                  </div>
+                })
+                :
+                null
+            }
           </div>
         </div>
       </div>
-      {
-        state.existeDados ?
-        testContent.Tabela.map((val, index) => {
-          return <>{val.Nome}</>
-        })
-        :
-        null
-      }
     </div>
   )
 }

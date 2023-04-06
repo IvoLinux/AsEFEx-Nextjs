@@ -1,0 +1,844 @@
+{
+    "Tabela": [
+        {
+            "Nr CP": 1659,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ABILIO PEDRO",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1660,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ADOLFO MASINI",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1661,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "AGNELO FERREIRA DE ARAUJO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1662,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ALCIONE RELO DE ARAUJO",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1663,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ALDEMAR FONTOURA DE OLIVEIRA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1664,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ALFREDO GIAQUINTO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1665,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ALFREDO TAVARES DE LIMA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1666,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ALTIVO PAIVA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1667,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ALUIZIO NUNES LEITE",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1668,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANCELMO DE FREITAS PEDREIRA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1669,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANTONIO BELARMINO DOS SANTOS",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1670,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANTONIO CERQUEIRA BOAVENTURA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1671,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANTONIO DE SOUZA PAIVA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1672,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANTONIO GIBRAN",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1673,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "ANTONIO MIRANDA MARQUES",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1674,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ARGUS PORTUGAL DE FREITAS",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1675,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ARI DE SOUZA PINHEIRO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1676,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ARMANDO GONÇALVES RAMOS",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1677,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ARTIDOR ZIMMERMANN",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1678,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "AYDANO LEITE",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1679,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "BRAULE DE OLIVEIRA RIBAS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1680,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "BRAULIO DE MELO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1681,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "CÂNDIDO JOAQUIM LEITE",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1682,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "CARLITO DE OLIVEIRA MAIA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1683,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "CARLOS APPOLINARIO DOS SANTOS",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1684,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "CARLOS MARQUES",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1685,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "CARLOS MEDEIROS NARCISO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1686,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "CARMELO PEREIRA DA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1687,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "CIRO PERALTA MARTINS",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1688,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "CLAKET CORREA DE SOUZA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1689,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "CLOVIS MONTENEGRO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1690,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "CONRADO PEREIRA DOS SANTOS",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1691,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "DELMIRO BISPO DE AMORIM",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1692,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DERMIVAL RIBEIRO DOS SANTOS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1693,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DURVAL NOGUEIRA SOUZA FILHO",
+            "Arma": "FPPA"
+        },
+        {
+            "Nr CP": 1694,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "EDGAR AUGUSTO SANTOS",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1695,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "EDMO DUQUE ESTRADA VIEIRA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1696,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ENÉAS DA CRUZ NUNES",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1697,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ENYR CONY DOS SANTOS",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1698,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "EURICO FERREIRA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1699,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "EXPEDITO HENRIK INGVORSEN",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1700,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "GASTÃO FARIAS DE OLIVEIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1701,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "GEORGE HORTÊNCIO CABRAL",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1702,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "GUILHERME SCHULTZ",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1703,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "GUTEMBERG JOSÉ DA SILVEIRA",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1704,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "HÉLIO DE OLIVEIRA DANTAS",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1705,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "HELIO MARTINS REIS",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1706,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "HERÁCLITO CARVALHO DA SILVA",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1707,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "HERONIDES BENZI",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1708,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "HUGO PIRES MACHADO",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1709,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "IVO SANTOS DA FONSECA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1710,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "JADYR PACHECO DE OLIVEIRA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1711,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "JAIR FRANCISCO DE SOUZA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1712,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "JOÃO CASA NOVA FILHO",
+            "Arma": "BMRGS"
+        },
+        {
+            "Nr CP": 1713,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOÃO DE HOLANDA CAVALCANTI",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1714,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "JOFRE FRANCISCO LEITE",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1715,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "JORGE JOÃO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1716,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "JORGE MINERVINO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1717,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "JORGE MUCIA MIRANDA DE CARVALHO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1718,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JORGE PEREIRA DE SOUZA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1719,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ ADÃO DA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1720,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ ALAOR DE BRITO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1721,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ AMARILIO PESSOTE",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1722,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ ANTONIO NOGUEIRA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1723,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ ARAUJO DIAS",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1724,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "JOSÉ BONIFÁCIO DE AZEVEDO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1725,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ DA SILVEIRA PALMEIRA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1726,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ DE CARVALHO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1727,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ GIL GONÇALVES DE BRITO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1728,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ MAURÍCIO GONZAGA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1729,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ RODRIGUES DE CARVALHO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1730,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ SANTOS VILLORDO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1731,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "JOSÉ SIMÕES DE BRITO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1732,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "LEONIDAS FUÃO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1733,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "LEOPOLDO NOULARD",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1734,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "LUIZ GONZAGA DA COSTA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1735,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "LUIZ NELSON BARBIERI",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1736,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "LUIZ VIANA DE ALCANTARA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1737,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MANOEL DA CONCEIÇÃO SANTOS",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1738,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MARINS ALVARO GOUVEA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1739,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MARVIS WALBEK ALEIXO",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1740,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MAURO MAGIOLI MAIA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1741,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MELCHIOR FEERNANDES DOOS SANTOS",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1742,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MICHEL JOSÉ CHUDA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1743,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "NADIM SEVERO MARREIS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1744,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "NATALINO ZANON",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1745,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "NESTOR ALMEIDA PEIXOTO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1746,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "NORLANDIO MEIRELES DE ALMEIDA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1747,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "OLEGARIO ALCANTARA DINIZ",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1748,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "OLIVAR BELTRAMI",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1749,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ORLANDO LIPPI",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1750,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ORLANDO MEGA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1751,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ORLANDO SOARES",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1752,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "OSCAR SOTERO DA SILVA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 1753,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "OSMAR DE OLIVEIRA COUTO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1754,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "OSVALDO MARTINS D'AVILA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1755,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "OSWALDO GORETTI",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1756,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "PAULO DE ARAUJO AZEVEDO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1757,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "PAULO DE SOUZA BRIGAGÃO",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1758,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "PAULO GONÇALVES DA MATA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1759,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "PAULO STENCEL",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1760,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "PEDRO FERREIRA BARBOSA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1761,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "PEDRO FRANCISCO BORRÉ",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1762,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "PERCIVAL DE SÁ CRUZ",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1763,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "PLINIO CANINEO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1764,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RAYMUNDO BENTO GONÇALVES",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1765,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RAYMUNDO DUTRA AYRES",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1766,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "ROSALVO DA COSTA RAMOS",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1767,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "RUBEM LAURO FRANTZ",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 1768,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RUBEM SELBACH",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1769,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "RUBENS DA COSTA VAZ",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1770,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "SEBASTIÃO DA SILVA",
+            "Arma": "PM"
+        },
+        {
+            "Nr CP": 1771,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "SEBASTIÃO MEDEIROS DE AGUIAR",
+            "Arma": "FPRGN"
+        },
+        {
+            "Nr CP": 1772,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "UBIRACI DE ALMEIDA FERRAZ",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1773,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "VALDEMAR BATISTA DA SILVA",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 1774,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "VALDEMAR TEIXEIRA LACERDA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1775,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "VENCESLAU DA SILVA ROCHA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 1776,
+            "Curso": "MONITOR",
+            "Posto": "CABO",
+            "Nome": "WALDEMAR CAVALCANTE",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1777,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "WALMOR CUNHA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 1778,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "WALTER DE AZEVEDO LOPES",
+            "Arma": "INFANTARIA"
+        },
+    ]
+}

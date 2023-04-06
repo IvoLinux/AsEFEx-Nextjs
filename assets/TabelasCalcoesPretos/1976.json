@@ -1,0 +1,508 @@
+{
+    "Tabela": [
+        {
+            "Nr CP": 4528,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ADEMAR DE ANDRADE",
+            "Arma": "PMRS"
+        },
+        {
+            "Nr CP": 4529,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ADEMIR TEIXEIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4530,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANTONIO JOSÉ ARAÚJO",
+            "Arma": "PMMA"
+        },
+        {
+            "Nr CP": 4531,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ATACILIO COELHO ALVES",
+            "Arma": "PMAM"
+        },
+        {
+            "Nr CP": 4532,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "AVELINO MANOEL DA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4533,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "BENEDITO MATOS DOS SANTOS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4534,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ELMO JARDIM DE MOURA",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 4535,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "EUTÍMIO MENDES ARAÚJO FILHO",
+            "Arma": "PMBA"
+        },
+        {
+            "Nr CP": 4536,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "FERNANDO ANTÓNIO DE LIMA",
+            "Arma": "PMMT"
+        },
+        {
+            "Nr CP": 4537,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "FRANCISCO DE PAULA CAETANO",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 4538,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "GONÇALO RODRIGUES DE LIMA",
+            "Arma": "PMPA"
+        },
+        {
+            "Nr CP": 4539,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JAIME LIMA PEREIRA",
+            "Arma": "MARINHA"
+        },
+        {
+            "Nr CP": 4540,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOÃO CARLOS CALAGE ALVARENGA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 4541,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ INÁCIO PINHEIRO",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 4542,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOSÉ SEVERINO DE OLIVEIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4543,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "LAÉRCIO VIEIRA DA SILVA",
+            "Arma": "PMDF"
+        },
+        {
+            "Nr CP": 4544,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "LUIZ CARLOS SOARES",
+            "Arma": "PMES"
+        },
+        {
+            "Nr CP": 4545,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MOACIR DA COSTA FREITAS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4546,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "NEWTON JOSÉ MEURER",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 4547,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "OLAVO GOMES DE OLIVEIRA",
+            "Arma": "PMAM"
+        },
+        {
+            "Nr CP": 4548,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "PAULO JOSÉ FERRAZ",
+            "Arma": "PMPE"
+        },
+        {
+            "Nr CP": 4549,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "PEDRO ENRIQUE MURRIETA VERA",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4550,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RAIMUNDO NONATO ROGÉRIO LEITÃO",
+            "Arma": "PMCE"
+        },
+        {
+            "Nr CP": 4551,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ROLIBEL BARBOSA DE ARAÚJO",
+            "Arma": "PMPE"
+        },
+        {
+            "Nr CP": 4552,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "SERGIO LUIZ BARRETO DE SÁ",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4553,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "VALDEMIR REBELLO CORTÁ",
+            "Arma": "PMERJ"
+        },
+        {
+            "Nr CP": 4554,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "WALTER REHL MUÑOZ",
+            "Arma": "CHILE"
+        },
+        {
+            "Nr CP": 4555,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "WILSON EDI SANTOS",
+            "Arma": "PMPR"
+        },
+        {
+            "Nr CP": 4556,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "BRAZ MIGUEL RUSSO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4557,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "CARLOS ALBERTO FONT EGUREM",
+            "Arma": "URUGUAI"
+        },
+        {
+            "Nr CP": 4558,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "CARLOS ALBERTO MESQUITA DAMASCENO",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 4559,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "CARLOS ALBERTO TERRA AMARAL",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4560,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "DERMEVAL LUIZ GANS",
+            "Arma": "COMUNICAÇÕES"
+        },
+        {
+            "Nr CP": 4561,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "EDSON FRANCO IMMAGINÁRIO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4562,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "EDSON SOUZA RODRIGUES",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 4563,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "ELIAS ALVES BARBOSA",
+            "Arma": "PMPB"
+        },
+        {
+            "Nr CP": 4564,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "FRANCISCO GOMES DA SILVA",
+            "Arma": "PMCE"
+        },
+        {
+            "Nr CP": 4565,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "FRANCISCO RENAN SILVA ROMO",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4566,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "FRANCISCO VARELA GANTES",
+            "Arma": "CHILE"
+        },
+        {
+            "Nr CP": 4567,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "GIL NEI CESCONETTO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 4568,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "GILBERTO FERREIRA FAZENDA",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 4569,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "GUSTAVO DE LA VEGA REYES",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4570,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "HIDEO MOTOOKA",
+            "Arma": "PMMT"
+        },
+        {
+            "Nr CP": 4571,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "ISMAR FERREIRA DA COSTA FILHO",
+            "Arma": "ENGENHARIA"
+        },
+        {
+            "Nr CP": 4572,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "JAIME MILTON SANCHEZ PADRON",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4573,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "JORGE MIGUEL PATRICIO PROAÑO ALBAN",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4574,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "JOSÉ CALASANS DE CARVALHO",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 4575,
+            "Curso": "INSTRUTOR",
+            "Posto": "CIVIL",
+            "Nome": "JOSÉ CARDOSO JUNIOR",
+            "Arma": "----"
+        },
+        {
+            "Nr CP": 4576,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "LAÉRCIO CORRÊA DE NORONHA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 4577,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "LINCOLN UNGARETTI BRANCO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4578,
+            "Curso": "INSTRUTOR",
+            "Posto": "CIVIL",
+            "Nome": "MARCELO SCHLICKMANN",
+            "Arma": "----"
+        },
+        {
+            "Nr CP": 4579,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "MÁRCIO VISCONTI",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 4580,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "MARCO AURELIO COSTA VIEIRA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 4581,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "MARCOS ANTÔNIO DA SILVA",
+            "Arma": "COMUNICAÇÕES"
+        },
+        {
+            "Nr CP": 4582,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "MILTON ALFONSO MOLINA VIZCAINO",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4583,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "ORIBEL FRANCISCO DA SILVA",
+            "Arma": "PMRO"
+        },
+        {
+            "Nr CP": 4584,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "OSVALDO FERNANDO ROSADILLA PEREZ",
+            "Arma": "URUGUAI"
+        },
+        {
+            "Nr CP": 4585,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "PAULO ROBERTO COSTA E SILVA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 4586,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "RAIMUNDO DA SILVA ARAÚJO NETO",
+            "Arma": "PMMA"
+        },
+        {
+            "Nr CP": 4587,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "ROBERTO FREDY RODRIGUES VIERA",
+            "Arma": "URUGUAI"
+        },
+        {
+            "Nr CP": 4588,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "ROBERTO RAMON DIAZ BONETTI",
+            "Arma": "URUGUAI"
+        },
+        {
+            "Nr CP": 4589,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "SAMUEL BARBOSA DA SILVA",
+            "Arma": "PMAL"
+        },
+        {
+            "Nr CP": 4590,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "SEBASTIÃO AMÉRICO DE SOUZA",
+            "Arma": "PMRN"
+        },
+        {
+            "Nr CP": 4591,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "SEGUNDO HERMOGENES CALDERON ESTEVES",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4592,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "SÉRGIO DIAS DA COSTA AITA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 4593,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "SEVERINO BARBOSA MARIZ NETO",
+            "Arma": "MARINHA"
+        },
+        {
+            "Nr CP": 4594,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "TAMOTSU WATANABE",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 4595,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "TELMO RICARDO DONOSO SALAS",
+            "Arma": "EQUADOR"
+        },
+        {
+            "Nr CP": 4596,
+            "Curso": "INSTRUTOR",
+            "Posto": "2º TENENTE",
+            "Nome": "TRANQUILINO MACHADO BADARACCO",
+            "Arma": "URUGUAI"
+        },
+        {
+            "Nr CP": 4597,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "JULIO CESAR BRANDÃO STOHLER",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 4598,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "LUCIANO TAVARES COELHO",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 4599,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "NELSON RODRIGUES PONTES",
+            "Arma": "MÉDICO"
+        },
+    ]
+}

@@ -1,0 +1,585 @@
+{
+    "Tabela": [
+        {
+            "Nr CP": 7964,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ACÁCIO SEVERO DA SILVA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 7965,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ALAN CARLOS DA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7966,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ANDERSON CLEITON LENHARDT",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 7967,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ARTHUR FELIPE SANTA BRIGIDA COSTA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7968,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "BRUNO ROBERTO TINOCO ROMAO DE OLIVEIRA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 7969,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DANIEL MIGUEL SOARES DE LIMA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 7970,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DANTE PINTO CARVALHO",
+            "Arma": "MATERIAL BÉLICO"
+        },
+        {
+            "Nr CP": 7971,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DAVID DE ARAÚJO RUFINO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7972,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "DAVID MARTINS DE ASSIS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7973,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DIEGO BARBOSA ROCHA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7974,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "DIEGO RAMOS DA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7975,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ELTTON EMERICH DA CUNHA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7976,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "ERICKSON BEZERRA DE ALMEIDA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7977,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "FELIPE ALVES DOS SANTOS COSTA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7978,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "FELIPE MARTINS NUNES DE SOUZA",
+            "Arma": "MATERIAL BÉLICO"
+        },
+        {
+            "Nr CP": 7979,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "GREGORY TIHOYCE CANEDO DA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7980,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JACKSON DOS SANTOS FERREIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7981,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JEFERSON LUIZ TEODORO DOS SANTOS",
+            "Arma": "PMMG"
+        },
+        {
+            "Nr CP": 7982,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "JÉSSICA GONÇALVES PINHEIRO",
+            "Arma": "SAÚDE"
+        },
+        {
+            "Nr CP": 7983,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JHONATHAN CHUENG BANZA DA SILVA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 7984,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JOÃO FELLYPE DE ÁVILA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7985,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "JULIO CÉSAR PISSINI",
+            "Arma": "MNT COM"
+        },
+        {
+            "Nr CP": 7986,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "MAXWELL DA COSTA SILVA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7987,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RAFAEL CASTRO DE OLIVEIRA",
+            "Arma": "MNT COM"
+        },
+        {
+            "Nr CP": 7988,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RAFAEL FERREIRA",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 7989,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RENAN ALVES FONSECA",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 7990,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RENAN ISMAR CARDOSO ACOSTA",
+            "Arma": "MNT COM"
+        },
+        {
+            "Nr CP": 7991,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RÔMULO CESAR RAMOS DE CARVALHO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 7992,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "RONALD ALVES TINOCO",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 7993,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "SANDRO VINICIUS DOS SANTOS PACHECO",
+            "Arma": "MARINHA"
+        },
+        {
+            "Nr CP": 7994,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "TIAGO JOSÉ MORAES DA SILVA",
+            "Arma": "TOPOGRAFIA"
+        },
+        {
+            "Nr CP": 7995,
+            "Curso": "MONITOR",
+            "Posto": "2º SARGENTO",
+            "Nome": "VINICIUS LOPES UGIETT",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 7996,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "VINICIUS MOREIRA DE MEDEIROS",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 7997,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "VITOR BARBOSA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 7998,
+            "Curso": "MONITOR",
+            "Posto": "3º SARGENTO",
+            "Nome": "WILIAN DE PAULA WALTER",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 7999,
+            "Curso": "INSTRUTOR",
+            "Posto": "CAPITÃO",
+            "Nome": "ALBERTO JAMES DOMINGUES PAZ FILHO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8000,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "ANDRÉ LUIZ DA SILVA",
+            "Arma": "MARINHA"
+        },
+        {
+            "Nr CP": 8001,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "ANDRÉ PINTO DOS SANTOS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8002,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "BRUNO ROGER DUTRA MENDES",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8003,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "CARLOS HENRIQUE ANCHIETA DOMINGOS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8004,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "DACSON ANDRÉ CLEMENTE",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 8005,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "DANILO ROBERTO DE PAULA",
+            "Arma": "ARTILHARIA"
+        },
+        {
+            "Nr CP": 8006,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "DENNISON OLIVEIRA LIMA FILHO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8007,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "DOUGLAS DE CASTRO JACINTO",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 8008,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "EMANUEL FREDERICO ALMEIDA FILIZOLA DE ABREU",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8009,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "EVERTON ANTÔNIO RAMOS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8010,
+            "Curso": "INSTRUTOR",
+            "Posto": "CAPITÃO",
+            "Nome": "FELIPE DE OLIVEIRA CATUCÁ",
+            "Arma": "MATERIAL BÉLICO"
+        },
+        {
+            "Nr CP": 8011,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "FELIPE PINTO DOS SANTOS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8012,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "GABRIEL VILAS BOAS DIAS",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8013,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "GIVALDO FERREIRA DA ROCHA JÚNIOR",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8014,
+            "Curso": "INSTRUTOR",
+            "Posto": "CAPITÃO",
+            "Nome": "GUILHERME GODOY RIBEIRO DA SILVA",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 8015,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "GUSTAVO ROCHA SANTANA CALMON RIBEIRO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8016,
+            "Curso": "INSTRUTOR",
+            "Posto": "CAPITÃO",
+            "Nome": "GUSTAVO SILVA DE OLIVEIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8017,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "HELDER REINALDO SOARES",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 8018,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "HERMINIO NADALON NETO",
+            "Arma": "ENGENHARIA"
+        },
+        {
+            "Nr CP": 8019,
+            "Curso": "INSTRUTOR",
+            "Posto": "CAPITÃO",
+            "Nome": "JEFFERSON MARTINEZ MONJARDIM COUTO",
+            "Arma": "AERONÁUTICA"
+        },
+        {
+            "Nr CP": 8020,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "JOALMIR AVELINO DA SILVA",
+            "Arma": "MATERIAL BÉLICO"
+        },
+        {
+            "Nr CP": 8021,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "JOÃO ALBERTO CARDOSO SOARES DE ANDRADE",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 8022,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "LEONARDO RESENDE E SILVA",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 8023,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "LEONARDO VERISSIMO LACERDA",
+            "Arma": "MATERIAL BÉLICO"
+        },
+        {
+            "Nr CP": 8024,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "LUÍS EDUARDO OLIVEIRA PAULA",
+            "Arma": "ENGENHARIA"
+        },
+        {
+            "Nr CP": 8025,
+            "Curso": "INSTRUTOR",
+            "Posto": "CAPITÃO",
+            "Nome": "LUIZ HENRIQUE DE ARAUJO FERREIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8026,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "MARLON PATRIQUE NOVAKOSKI",
+            "Arma": "CAVALARIA"
+        },
+        {
+            "Nr CP": 8027,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "MURILO FREITAS DE OLIVEIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8028,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "NATAN LIMA PARACAMPOS BARROSO",
+            "Arma": "BMERJ"
+        },
+        {
+            "Nr CP": 8029,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "OSVALDO PAIVA HENRIQUES",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8030,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "PAULO TYAGO VILLANOVA CAVALCANTE",
+            "Arma": "ENGENHARIA"
+        },
+        {
+            "Nr CP": 8031,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "PEDRO ANTONIO DO NASCIMENTO BASTOS",
+            "Arma": "ENGENHARIA"
+        },
+        {
+            "Nr CP": 8032,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "RODRIGO MIRANDA BORNHAUSEN CARDOSO",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8033,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "ROGÉRIO LAVEDO DA SILVA JÚNIOR",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8034,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "THIAGO BARROS FERREIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8035,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "THIAGO REZENDE DE OLIVEIRA",
+            "Arma": "INFANTARIA"
+        },
+        {
+            "Nr CP": 8036,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "URIAS DE FREITAS SERAFIM",
+            "Arma": "INTENDÊNCIA"
+        },
+        {
+            "Nr CP": 8037,
+            "Curso": "INSTRUTOR",
+            "Posto": "1º TENENTE",
+            "Nome": "VINÍCIUS COÊLHO MACHADO",
+            "Arma": "ENGENHARIA"
+        },
+        {
+            "Nr CP": 8038,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "CAPITÃO",
+            "Nome": "ADRIANA LUSTOSA GASPAR",
+            "Arma": "PMERJ"
+        },
+        {
+            "Nr CP": 8039,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "CAPITÃO",
+            "Nome": "ALEXANDRE AUGUSTO NASSIF ANDRADE",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 8040,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "BRUNO FRANCISCO RIBAS",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 8041,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "CIVIL",
+            "Nome": "CLAUDIA COSTA DE MORAES COUTINHO",
+            "Arma": "----"
+        },
+        {
+            "Nr CP": 8042,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "HENRIQUE VALENÇA COUTINHO",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 8043,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "IRAÊ ALVES SANTOS",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 8044,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "LUIZ DE ANDRADE CORRÊA",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 8045,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "MARILDA HELENA FORSTER",
+            "Arma": "MÉDICO"
+        },
+        {
+            "Nr CP": 8046,
+            "Curso": "MEDICINA ESPORTIVA",
+            "Posto": "1º TENENTE",
+            "Nome": "THALES FERNANDO BARNECHE",
+            "Arma": "MÉDICO"
+        },
+    ]
+}
