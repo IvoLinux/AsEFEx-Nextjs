@@ -1,0 +1,18 @@
+{
+    "Tabela": [
+        {
+            "Nr CP": 1,
+            "Curso": "───",
+            "Posto": "───",
+            "Nome": "NILTON ANDRADE CAVALCANTI",
+            "Arma": "───"
+        },
+        {
+            "Nr CP": 2, 
+            "Curso": "MONITOR", 
+            "Posto": "SARGENTO", 
+            "Nome": "AFONSO BLUM", 
+            "Arma": "ARTILHARIA"
+        }
+    ]
+}
