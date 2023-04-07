@@ -5,6 +5,7 @@ import Header from '../modules/header'
 import Menu from '../modules/menu'
 import Footer from '../modules/footer'
 import BarraGov from '@/components/BarraGov'
+import Card from '@/components/Card'
 
 export default function Home() {
   return (
@@ -74,25 +75,15 @@ export default function Home() {
                   <p>Siga-nos nas redes sociais:</p>
                   <div className="container">
                     <div className="row">
-                      <div className="span4">
-                        <div className=" card">
-                          <Link href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/"><img src="images/facebook.png" />
-                            <h2><strong>Facebook</strong></h2>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="span4">
-                        <div className=" card">
-                          <Link href="https://www.instagram.com/asefex1990_desportoexercito/"><img src="images/instagram.png" />
-                            <h2><strong>Instagram</strong></h2>
-                          </Link>
-                        </div>
-                      </div>
+                      <Card title="Facebook" image="images/facebook.png"
+                        route="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/" />
+                      <Card title="Instagram" image="images/instagram.png"
+                        route="https://www.instagram.com/asefex1990_desportoexercito/" />
                     </div>
                   </div>
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>
-              </div>Name
+              </div>
             </div>
           </div>
         </main>
