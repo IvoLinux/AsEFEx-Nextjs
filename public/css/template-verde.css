@@ -2095,6 +2095,15 @@ main div.rastro-navegacao a:hover {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(255, 255, 255, 0.6);
 }
+.contraste tr{
+  background-color: black;
+}
+.contraste td{
+  border-color: white;
+}
+.contraste th{
+  border-color: white;
+}
 .contraste .btn-default {
   background-color: #262626;
   color: #fff;
