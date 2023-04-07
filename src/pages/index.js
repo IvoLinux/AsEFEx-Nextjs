@@ -146,13 +146,9 @@ export default function Home() {
                                  <div className="outstanding-header">
                                     <h2 className="outstanding-title">Homenagem</h2>
                                  </div>
-                                 {/* <Link href="/homenagem">
-                                    <Link className="img-rounded"><img src="images/noticia1.jpg" alt="Homenagem" /></Link>
-                                 </Link> */}
+                                 <Link href="../homenagem" className="img-rounded"><img src="images/noticia1.jpg" alt="Homenagem" /></Link>
                                  <h2>
-                                    {/* <Link href="/homenagem">
-                                       <Link><strong>Cel Noaldo: um Guerreiro, um Exemplo</strong></Link>
-                                    </Link> */}
+                                    <Link href="/homenagem"><strong>Cel Noaldo: um Guerreiro, um Exemplo</strong></Link>
                                  </h2>
                                  <p>A AsEFEx rende uma justa homenagem ao Cel Noaldo Alves da Silva</p>
                               </div>
@@ -187,13 +183,9 @@ export default function Home() {
                                  <div className="outstanding-header">
                                     <h2 className="outstanding-title">Seja um Associado da AsEFEx</h2>
                                  </div>
-                                 {/* <Link href="/seja-associado">
-                                    <Link><img src="images/associar.png" alt="Associe-se" style={{ maxWidth: 345, maxHeight: 204, height: 'auto', width: 'auto' }} /></Link>
-                                 </Link> */}
+                                 <Link href="/seja-associado"><img src="images/associar.png" alt="Associe-se" style={{ maxWidth: 345, maxHeight: 204, height: 'auto', width: 'auto' }} /></Link>
                                  <h2>
-                                    {/* <Link href="/seja-associado">
-                                       <Link><strong>Associe-se</strong></Link>
-                                    </Link> */}
+                                    <Link href="/seja-associado"><strong>Associe-se</strong></Link>
                                  </h2>
                                  <p>Preenchimento da ficha de inscrição.</p>
                               </div>
@@ -203,13 +195,9 @@ export default function Home() {
                                  <div className="outstanding-header">
                                     <h2 className="outstanding-title">Mídias sociais AsEFEx</h2>
                                  </div>
-                                 {/* <Link href="/midias-sociais">
-                                    <Link><img src="images/midias-sociais.png" alt="Mídias Sociais" style={{ maxWidth: 345, maxHeight: 204, height: 'auto', width: 'auto' }} /></Link>
-                                 </Link> */}
+                                 <Link href="/midias-sociais"><img src="images/midias-sociais.png" alt="Mídias Sociais" style={{ maxWidth: 345, maxHeight: 204, height: 'auto', width: 'auto' }} /></Link>
                                  <h2>
-                                    {/* <Link href="/midias-sociais">
-                                       <Link><strong>A AsEFEx nas Redes Sociais</strong></Link>
-                                    </Link> */}
+                                    <Link href="/midias-sociais"><strong>A AsEFEx nas Redes Sociais</strong></Link>
                                  </h2>
                                  <p>Siga nossas mídias sociais!</p>
                               </div>
