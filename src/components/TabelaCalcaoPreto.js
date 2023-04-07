@@ -1,5 +1,3 @@
-
-
 export default function TabelaCalcaoPreto({ setShowTabela, setState, ano, tabela }) {
 	return <>
 		<div>

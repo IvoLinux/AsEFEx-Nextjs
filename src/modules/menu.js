@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-
-
 function Menu() {
    return (
       <div id="menu">
