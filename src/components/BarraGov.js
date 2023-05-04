@@ -17,4 +17,5 @@ const BarraGov = () => {
         </div>
     );
 };
+
 export default BarraGov;

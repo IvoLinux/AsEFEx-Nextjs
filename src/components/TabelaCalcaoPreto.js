@@ -27,7 +27,7 @@ export default function TabelaCalcaoPreto({ setShowTabela, setState, ano, tabela
 						</tr>
 						{
 							tabela.Tabela.map((val, index) => {
-								return <tr style={{height: "36px"}}>
+								return <tr style={{ height: "36px" }}>
 									<td>{val.NrCP}</td>
 									<td>{val.Curso}</td>
 									<td><b>{val.Posto}</b></td>

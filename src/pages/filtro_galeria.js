@@ -57,7 +57,7 @@ function Filtro() {
                 <div style={{ width: "auto" }} className="form-group span5">
                   <label htmlFor="decada">Década:</label>
                   <select className="form-control" id="decada" onChange={updateDecada}>
-                    <option selected value="escolha">Escolha uma década....</option>
+                    <option defaultValue="escolha">Escolha uma década....</option>
                     <option value="1920">1920</option>
                     <option value="1930">1930</option>
                     <option value="1940">1940</option>
@@ -74,7 +74,7 @@ function Filtro() {
                 <div style={{ width: "auto" }} className="form-group span5">
                   <label htmlFor="ano">Ano:</label>
                   <select className="form-control" id="ano" onChange={updateAno}>
-                    <option selected value="escolha">Escolha um ano....</option>
+                    <option defaultValue="escolha">Escolha um ano....</option>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
