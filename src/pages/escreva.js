@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <meta charSet="utf-8" />
         <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página de Escritura na Revista da AsEFEx</title>
-        
+
         <meta name="keywords" content="" />
         <meta name="author" content="IME Júnior" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,9 +28,7 @@ export default function Home() {
 
       <div className="layout">
         <BarraGov />
-        <header>
-          <Header />
-        </header>
+        <Header />
 
         <main>
           <div className="container">

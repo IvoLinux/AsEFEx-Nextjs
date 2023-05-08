@@ -29,9 +29,7 @@ function Cadastro() {
 
       <div className="layout">
         <BarraGov />
-        <header>
-          <Header />
-        </header>
+        <Header />
 
         <main>
           <div className="container">

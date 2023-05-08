@@ -49,7 +49,7 @@ export default function Home() {
       }
 
       axios.post("/api/sendMail", dataToSubmit)
-q
+      q
       resetForm()
 
     }
@@ -91,7 +91,7 @@ q
       <Head>
         <meta charSet="utf-8" />
         <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página de Comunicação por e-mail</title>
-        
+
         <meta name="keywords" content="" />
         <meta name="author" content="IME Júnior" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -108,9 +108,7 @@ q
 
       <div className="layout">
         <BarraGov />
-        <header>
-          <Header />
-        </header>
+        <Header />
 
         <main>
           <div className="container">

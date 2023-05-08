@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <meta charSet="utf-8" />
         <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página de Homenagem ao Coronel Noaldo</title>
-        
+
         <meta name="keywords" content="" />
         <meta name="author" content="IME Júnior" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,9 +29,7 @@ export default function Home() {
 
       <div className="layout">
         <BarraGov />
-        <header>
-          <Header />
-        </header>
+        <Header />
 
         <main>
           <div className="container">
@@ -85,7 +83,7 @@ export default function Home() {
                     <em>Cel Noaldo condecorou o recém-eleito Presidente Jair Bolsonaro com a Medalha do Mérito AsEFEx, durante o Encontro dos Calções Pretos, em 2018. </em>
                   </div>
 
-                  <p>Confira essa e outras matérias na <Link style={{color: '#0088CC'}} href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw">Revista no 113 da AsEFEx</Link></p>
+                  <p>Confira essa e outras matérias na <Link style={{ color: '#0088CC' }} href="https://pt.calameo.com/read/006435344df915ae2ecbd?authid=PiQe6zOM9Ccw">Revista no 113 da AsEFEx</Link></p>
 
                   <span className="hide">Fim do conteúdo da página</span>
                 </section>

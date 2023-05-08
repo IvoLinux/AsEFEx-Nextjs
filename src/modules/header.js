@@ -26,7 +26,7 @@ function Header() {
    }, [contraste])
 
    return (
-      <div>
+      <header>
          <div className="container">
             <div className="row-fluid accessibility-language-actions-container">
                <div className="span6 accessibility-container">
@@ -169,7 +169,7 @@ function Header() {
             {/* .container */}
          </div>
          {/* fim .sobre */}
-      </div>
+      </header>
    )
 }
 
