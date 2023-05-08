@@ -13,7 +13,7 @@ export default function Home() {
          <Head>
             <meta charSet="utf-8" />
             <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página Inicial</title>
-            
+
             <meta name="keywords" content="" />
             <meta name="author" content="IME Júnior" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,7 +48,7 @@ export default function Home() {
                               <div className="module module-box-01 module-box-01-top-adjust">
                                  <div className="gallery-pane">
                                     {/* inicio slideshow */}
-                                       <Carousel />
+                                    <Carousel />
                                     {/* fim galeria */}
                                  </div>
                               </div>
@@ -161,6 +161,7 @@ export default function Home() {
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossorigin="anonymous"
          />
+         <Script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></Script> <noscript>&nbsp;</noscript>
       </div>
    )
 }

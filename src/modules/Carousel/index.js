@@ -1,18 +1,7 @@
 import Link from "next/link"
-import styles from './index.module.css'
 
 export default function Carousel() {
-
-// Pra usar css exclusivo nesse component, de o className no arquivo index.module.css como se fosse css normal (deixei um exemplo rolha)
-// Ao inves de ser <div className="nome", vira <div className={styles.nome}
-// Essa area antes do return vai todas as funcoes puramente js
-// Se quiser exemplo de js pode abrir a pagina do filtro_galeria q la tem um pouco
-// Lembre, existem muitos tutoriais de carousels na internet, da ate pra meter no chat gpt que sepa ele safa
-
     return <div className="carousel slide" id="gallery-carousel">
-        {/* Exemplo rolha, pode deletar esse div */}
-        <div className={styles.exemplo}>Exemplo rolha</div>
-        
         <div className="carousel-inner">
             <div className="item">
                 <Link href="http://www.ipcfex.eb.mil.br/ultimas-noticias/313-19-simposio-internacional-de-atividade-fisica-3"><img alt="SIAFIS" src="images/carrossel1.png" /></Link>
