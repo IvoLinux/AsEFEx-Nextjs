@@ -12,7 +12,7 @@ export default function TabelaCalcaoPreto({ setShowTabela, setState, ano, tabela
 			</button>
 			<p><b>Nr CP</b> - Número do Calção Preto</p>
 			<p><b>QI</b> - Quadro de Intendentes</p>
-			<div className="span9 module-box-01">
+			<div className="module-box-01">
 				<div className="header">
 					<h2 className="titulo-box" style={{ display: "flex", justifyContent: "center" }}><strong>{ano}</strong></h2>
 				</div>
@@ -39,8 +39,6 @@ export default function TabelaCalcaoPreto({ setShowTabela, setState, ano, tabela
 					</tbody>
 				</table>
 			</div>
-
-			<span className="hide">Fim do conteúdo da página</span>
 		</div>
 	</>
 }

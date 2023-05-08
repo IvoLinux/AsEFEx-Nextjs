@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Footer() {
    return (
-      <div>
+      <footer>
          <div className="footer-atalhos">
             <div className="container">
                <div className="pull-right voltar-ao-topo"><Link href="#portal-siteactions"><i className="icon-chevron-up" />&nbsp;Voltar para o topo</Link></div>
@@ -136,7 +136,7 @@ function Footer() {
                <div className="pull-right voltar-ao-topo"><Link href="#portal-siteactions"><i className="icon-chevron-up" />&nbsp;Voltar para o topo</Link></div>
             </div>
          </div>
-      </div>
+      </footer>
    )
 }
 

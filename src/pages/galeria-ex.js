@@ -1,9 +1,5 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Header from '../modules/header'
-import Menu from '../modules/menu'
-import Footer from '../modules/footer'
-import BarraGov from '@/components/BarraGov'
 import Filtro from './filtro_galeria'
 
 export default function GaleriaExAlunos() {
@@ -20,31 +16,12 @@ export default function GaleriaExAlunos() {
         <meta name="generator" content="IME Júnior" />
       </Head>
 
-      <noscript>
-        <div className="error minor-font">
-          Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site
-          podem não estar acessíveis.
-        </div>
-      </noscript>
-
-      <div className="layout">
-        <BarraGov />
-        <Header />
-
-        <main>
-          <div className="container">
-            <div className="row-fluid">
-              <Menu />
-              <Filtro />
-            </div>
-          </div>
-        </main>
-
-        <footer>
-          <Footer />
-        </footer>
+      <div id="content" className="internas span9">
+        <section id="content-section">
+          <Filtro />
+          <span className="hide">Fim do conteúdo da página</span>
+        </section>
       </div>
-
 
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

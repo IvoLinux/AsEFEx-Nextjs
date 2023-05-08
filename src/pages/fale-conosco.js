@@ -2,10 +2,6 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
 import Link from 'next/link'
-import Header from '../modules/header'
-import Menu from '../modules/menu'
-import Footer from '../modules/footer'
-import BarraGov from '@/components/BarraGov'
 // import axios from 'axios'
 
 export default function Home() {
@@ -99,55 +95,41 @@ export default function Home() {
         <meta name="generator" content="IME Júnior" />
       </Head>
 
-      <noscript>
-        <div className="error minor-font">
-          Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site
-          podem não estar acessíveis.
-        </div>
-      </noscript>
+      <div id="content" className="internas span9">
+        <section id="content-section">
+          <div className="module module-box-01">
+            <div className="header">
+              <h1 className="titulo-box"><strong>Fale Conosco</strong></h1>
+              <p><strong>Envie uma mensagem e receba a resposta por e-mail:</strong></p>
+            </div>
+            <form>
+              <div className="singleItem">
+                <label htmlFor="nome">Nome Completo:</label>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  className="nome"
+                  placeholder="Escreva seu Nome Completo..."
+                  value={state.nome}
+                  onChange={onInputChange}
+                />
+              </div>
 
-      <div className="layout">
-        <BarraGov />
-        <Header />
+              <div className="singleItem">
+                <label htmlFor="email">e-mail:</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  className="email"
+                  placeholder="Escreva seu e-mail..."
+                  value={state.email}
+                  onChange={onInputChange}
+                />
+              </div>
 
-        <main>
-          <div className="container">
-            <div className="row-fluid">
-              <Menu />
-              <div>
-                <div className="span9 module module-box-01">
-                  <div className="header">
-                    <h1 className="titulo-box"><strong>Fale Conosco</strong></h1>
-                    <p><strong>Envie uma mensagem e receba a resposta por e-mail:</strong></p>
-                  </div>
-                  <form>
-                    <div className="singleItem">
-                      <label htmlFor="nome">Nome Completo:</label>
-                      <input
-                        type="text"
-                        name="nome"
-                        id="nome"
-                        className="nome"
-                        placeholder="Escreva seu Nome Completo..."
-                        value={state.nome}
-                        onChange={onInputChange}
-                      />
-                    </div>
-
-                    <div className="singleItem">
-                      <label htmlFor="email">e-mail:</label>
-                      <input
-                        type="text"
-                        name="email"
-                        id="email"
-                        className="email"
-                        placeholder="Escreva seu e-mail..."
-                        value={state.email}
-                        onChange={onInputChange}
-                      />
-                    </div>
-
-                    {/* <div className="singleItem">
+              {/* <div className="singleItem">
                         <label htmlFor="assunto">Assunto:</label>
                         <select name="assunto" id="assunto" class="custom-select" defaultValue="escolha" onChange={mudarAssunto}>
                             <option selected value="escolha">Escolha uma opção....</option>
@@ -157,50 +139,43 @@ export default function Home() {
                         </select>
                     </div> */}
 
-                    <div className="textArea singleItem">
-                      <label htmlFor="texto">Texto:</label>
-                      <textarea
-                        name="texto"
-                        id="texto"
-                        rows="5"
-                        className="texto"
-                        placeholder="Escreva o seu texto..."
-                        value={state.texto}
-                        onChange={onInputChange}
-                      ></textarea>
-                    </div>
-                    <div className={state.envio ? 'alert alert-success' : 'noAlert1'}>
-                      <strong>Mensagem Enviada</strong>
-                    </div>
-                    <div className={state.campos ? 'alert alert-danger' : 'noAlert2'}>
-                      <strong>Todos os campos devem ser preenchidos!</strong>
-                    </div>
-                    <div>
-                      <button variant="primary" className="btn-default" onClick={formSubmit}>Enviar</button>
-                    </div>
-                  </form>
-                </div>
-                <div className="internas span9 box">
-                  <p><strong>Também nos siga nas redes sociais:</strong></p>
-                </div>
-
-                <div className="span4 icones">
-                  <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
-                    <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
-                </div>
-                <div className="span4 icones">
-                  <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
-                    <i className="icon-instagram"><span>Instagram</span></i></Link>
-                </div>
-
+              <div className="textArea singleItem">
+                <label htmlFor="texto">Texto:</label>
+                <textarea
+                  name="texto"
+                  id="texto"
+                  rows="5"
+                  className="texto"
+                  placeholder="Escreva o seu texto..."
+                  value={state.texto}
+                  onChange={onInputChange}
+                ></textarea>
               </div>
-            </div>
+              <div className={state.envio ? 'alert alert-success' : 'noAlert1'}>
+                <strong>Mensagem Enviada</strong>
+              </div>
+              <div className={state.campos ? 'alert alert-danger' : 'noAlert2'}>
+                <strong>Todos os campos devem ser preenchidos!</strong>
+              </div>
+              <div>
+                <button variant="primary" className="btn-default" onClick={formSubmit}>Enviar</button>
+              </div>
+            </form>
           </div>
-        </main>
+          <div className="internas span9 box">
+            <p><strong>Também nos siga nas redes sociais:</strong></p>
+          </div>
 
-        <footer>
-          <Footer />
-        </footer>
+          <div className="span4 icones">
+            <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
+              <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
+          </div>
+          <div className="span4 icones">
+            <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
+              <i className="icon-instagram"><span>Instagram</span></i></Link>
+          </div>
+          <span className="hide">Fim do conteúdo da página</span>
+        </section>
       </div>
 
       <Script

@@ -1,9 +1,5 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Header from '../modules/header'
-import Menu from '../modules/menu'
-import Footer from '../modules/footer'
-import BarraGov from '@/components/BarraGov'
 
 export default function Home() {
   return (
@@ -19,36 +15,13 @@ export default function Home() {
         <meta name="generator" content="IME Júnior" />
       </Head>
 
-      <noscript>
-        <div className="error minor-font">
-          Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site
-          podem não estar acessíveis.
-        </div>
-      </noscript>
-
-      <div className="layout">
-        <BarraGov />
-        <Header />
-
-        <main>
-          <div className="container">
-            <div className="row-fluid">
-              <Menu />
-              <div id="content" className="internas span9">
-                <section id="content-section">
-                  <span className="hide">Início do conteúdo da página</span>
-                  <h1 className="documentFirstHeading">ESCREVA NA REVISTA AsEFEx</h1>
-                  <p><strong><em>Orientações para a submissão de matérias para a Revista da AsEFEx em elaboração, material estará disponível em breve.</em></strong></p>
-                  <span className="hide">Fim do conteúdo da página</span>
-                </section>
-              </div>
-            </div>
-          </div>
-        </main>
-
-        <footer>
-          <Footer />
-        </footer>
+      <div id="content" className="internas span9">
+        <section id="content-section">
+          <span className="hide">Início do conteúdo da página</span>
+          <h1 className="documentFirstHeading">ESCREVA NA REVISTA AsEFEx</h1>
+          <p><strong><em>Orientações para a submissão de matérias para a Revista da AsEFEx em elaboração, material estará disponível em breve.</em></strong></p>
+          <span className="hide">Fim do conteúdo da página</span>
+        </section>
       </div>
 
       <Script

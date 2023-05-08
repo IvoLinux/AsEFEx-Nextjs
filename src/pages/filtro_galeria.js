@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import TabelaCalcaoPreto from '@/components/TabelaCalcaoPreto'
 import AnosNaGaleria from '../../assets/AnosGaleria.json'
 

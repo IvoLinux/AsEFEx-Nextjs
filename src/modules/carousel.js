@@ -16,6 +16,7 @@ export default function Carousel() {
                     </div>
                 </div>
             </div>
+
             <div className="item active">
                 <Link href="http://www.esefex.eb.mil.br/ultimas-noticias/280-vii-forum-cientifico"><img alt="VIII Fórum Científico" src="images/carrossel2.png" /></Link>
                 <div className="galleria-info">
@@ -29,6 +30,7 @@ export default function Carousel() {
                     </div>
                 </div>
             </div>
+
             <div className="item">
                 <Link href="https://pt.calameo.com/read/0064353440d972455e25a?authid=7B9aI7IM9Xtj"><img alt="Informativo AsEFEx" src="images/carrossel3.png" /></Link>
                 <div className="galleria-info">
@@ -42,6 +44,7 @@ export default function Carousel() {
                     </div>
                 </div>
             </div>
+
             <div className="item">
                 <Link href="https://pt.calameo.com/read/006435344d3a13a215c69?authid=G7WRiQYJICNf"><img alt="Revista AsEFEx" src="images/carrossel4.png" /></Link>
                 <div className="galleria-info">
@@ -56,6 +59,7 @@ export default function Carousel() {
                 </div>
             </div>
         </div>
+        
         <Link data-slide="prev" href="#gallery-carousel" className="left carousel-control"><i className="icon-angle-left" /><span className="hide">Mover foto esquerda</span></Link>
         {/* separador para fins de acessibilidade */}<span className="hide">&nbsp;</span>
         {/* fim separador para fins de acessibilidade */}
