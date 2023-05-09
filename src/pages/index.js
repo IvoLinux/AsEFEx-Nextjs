@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Carousel from '@/modules/carousel'
+import Script from 'next/script'
+
 
 export default function Home() {
   return (
@@ -119,6 +121,7 @@ export default function Home() {
         <span className="hide">Fim do conteúdo da página</span>
       </section>
 
+      <Script src="bootstrap/js/bootstrap.min.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
     </div>
   )
 }
