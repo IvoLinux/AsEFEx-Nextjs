@@ -12,9 +12,6 @@ function handleMenuAccessibility() {
 function Menu() {
    return (
       <>
-         <Head>
-            <script src="/js/template.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
-         </Head>
          <div id="menu">
             <div id="navigation" className="span3">
                <Link onClick={() => handleMenuAccessibility()} href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</Link>

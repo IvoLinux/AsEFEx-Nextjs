@@ -5,14 +5,7 @@ function Cadastro() {
   return (
     <div>
       <Head>
-        <meta charSet="utf-8" />
         <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página de Atualização de Cadastro</title>
-
-        <meta name="keywords" content="" />
-        <meta name="author" content="IME Júnior" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="" />
-        <meta name="generator" content="IME Júnior" />
       </Head>
 
       <div id="content" className="internas span9">

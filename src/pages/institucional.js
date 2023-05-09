@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta charSet="utf-8" />
         <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página Institucional</title>
         <meta name="keywords" content="" />
         <meta name="author" content="IME Júnior" />
