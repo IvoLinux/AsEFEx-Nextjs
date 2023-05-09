@@ -102,13 +102,13 @@ function Menu() {
                            <Link href="/cursos" title="Cursos">»Cursos</Link>
                         </li>
                         <li>
-                           <Link href="/eventos_sociais_2021" title="Eventos Sociais">»Eventos Sociais </Link>
+                           <Link href="/eventos-sociais" title="Eventos Sociais">»Eventos Sociais </Link>
                         </li>
                         <li>
-                           <Link href="/eventos_realizados" title="Galeria de Eventos Realizados">»Galeria de Eventos Realizados</Link>
+                           <Link href="/eventos-realizados" title="Galeria de Eventos Realizados">»Galeria de Eventos Realizados</Link>
                         </li>
                         <li>
-                           <Link href="/proposta_evento" title="Faça sua Proposta de Evento">»Faça sua Proposta de Evento</Link>
+                           <Link href="/proposta-evento" title="Faça sua Proposta de Evento">»Faça sua Proposta de Evento</Link>
                         </li>
                      </ul>
                   </nav>
@@ -129,10 +129,10 @@ function Menu() {
                      <h2 className={styles.title}>Transparência <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
-                           <Link href="/relatorio_fin" title="Relatórios Financeiros">»Relatórios Financeiros </Link>
+                           <Link href="/relatorio-fin" title="Relatórios Financeiros">»Relatórios Financeiros </Link>
                         </li>
                         <li>
-                           <Link href="/relatorio_fin_ant" title="Relatórios Financeiros de Anos Anteriores">»Relatórios Financeiros de Anos Anteriores</Link>
+                           <Link href="/relatorio-fin-ant" title="Relatórios Financeiros de Anos Anteriores">»Relatórios Financeiros de Anos Anteriores</Link>
                         </li>
                      </ul>
                   </nav>
@@ -166,7 +166,7 @@ function Menu() {
                            <Link href="/fale-conosco" title="Contato">»Contato</Link>
                         </li>
                         <li>
-                           <Link href="/perguntas_freq" title="Perguntas Frequentes">»Perguntas Frequentes</Link>
+                           <Link href="/perguntas-freq" title="Perguntas Frequentes">»Perguntas Frequentes</Link>
                         </li>
                      </ul>
                   </nav>

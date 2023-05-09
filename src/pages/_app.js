@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta charSet="utf-8" />
-
         <meta name="keywords" content="" />
         <meta name="author" content="IME Júnior" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,14 +27,12 @@ function MyApp({ Component, pageProps }) {
 
         <Header />
 
-        <main>
-          <div className="container">
-            <div className="row-fluid">
-              <Menu />
-              <Component {...pageProps} />
-            </div>
+        <main><div className="container"><div className="row-fluid">
+          <Menu />
+          <div id="content" className="internas span9">
+            <Component {...pageProps} />
           </div>
-        </main>
+        </div></div></main>
 
         <Footer />
 

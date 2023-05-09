@@ -84,44 +84,43 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército - Página de Comunicação por e-mail</title>
+        <title>Fale Conosco - AsEFEx</title>
       </Head>
 
-      <div id="content" className="internas span9">
-        <section id="content-section">
-          <div className="module module-box-01">
-            <div className="header">
-              <h1 className="titulo-box"><strong>Fale Conosco</strong></h1>
-              <p><strong>Envie uma mensagem e receba a resposta por e-mail:</strong></p>
+      <section id="content-section">
+        <div className="module module-box-01">
+          <div className="header">
+            <h1 className="titulo-box"><strong>Fale Conosco</strong></h1>
+            <p><strong>Envie uma mensagem e receba a resposta por e-mail:</strong></p>
+          </div>
+          <form>
+            <div className="singleItem">
+              <label htmlFor="nome">Nome Completo:</label>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                className="nome"
+                placeholder="Escreva seu Nome Completo..."
+                value={state.nome}
+                onChange={onInputChange}
+              />
             </div>
-            <form>
-              <div className="singleItem">
-                <label htmlFor="nome">Nome Completo:</label>
-                <input
-                  type="text"
-                  name="nome"
-                  id="nome"
-                  className="nome"
-                  placeholder="Escreva seu Nome Completo..."
-                  value={state.nome}
-                  onChange={onInputChange}
-                />
-              </div>
 
-              <div className="singleItem">
-                <label htmlFor="email">e-mail:</label>
-                <input
-                  type="text"
-                  name="email"
-                  id="email"
-                  className="email"
-                  placeholder="Escreva seu e-mail..."
-                  value={state.email}
-                  onChange={onInputChange}
-                />
-              </div>
+            <div className="singleItem">
+              <label htmlFor="email">e-mail:</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                className="email"
+                placeholder="Escreva seu e-mail..."
+                value={state.email}
+                onChange={onInputChange}
+              />
+            </div>
 
-              {/* <div className="singleItem">
+            {/* <div className="singleItem">
                         <label htmlFor="assunto">Assunto:</label>
                         <select name="assunto" id="assunto" className="custom-select" defaultValue="escolha" onChange={mudarAssunto}>
                             <option selected value="escolha">Escolha uma opção....</option>
@@ -131,44 +130,43 @@ export default function Home() {
                         </select>
                     </div> */}
 
-              <div className="textArea singleItem">
-                <label htmlFor="texto">Texto:</label>
-                <textarea
-                  name="texto"
-                  id="texto"
-                  rows="5"
-                  className="texto"
-                  placeholder="Escreva o seu texto..."
-                  value={state.texto}
-                  onChange={onInputChange}
-                ></textarea>
-              </div>
-              <div className={state.envio ? 'alert alert-success' : 'noAlert1'}>
-                <strong>Mensagem Enviada</strong>
-              </div>
-              <div className={state.campos ? 'alert alert-danger' : 'noAlert2'}>
-                <strong>Todos os campos devem ser preenchidos!</strong>
-              </div>
-              <div>
-                <button variant="primary" className="btn-default" onClick={formSubmit}>Enviar</button>
-              </div>
-            </form>
-          </div>
-          <div className="internas span9 box">
-            <p><strong>Também nos siga nas redes sociais:</strong></p>
-          </div>
+            <div className="textArea singleItem">
+              <label htmlFor="texto">Texto:</label>
+              <textarea
+                name="texto"
+                id="texto"
+                rows="5"
+                className="texto"
+                placeholder="Escreva o seu texto..."
+                value={state.texto}
+                onChange={onInputChange}
+              ></textarea>
+            </div>
+            <div className={state.envio ? 'alert alert-success' : 'noAlert1'}>
+              <strong>Mensagem Enviada</strong>
+            </div>
+            <div className={state.campos ? 'alert alert-danger' : 'noAlert2'}>
+              <strong>Todos os campos devem ser preenchidos!</strong>
+            </div>
+            <div>
+              <button variant="primary" className="btn-default" onClick={formSubmit}>Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div className="internas span9 box">
+          <p><strong>Também nos siga nas redes sociais:</strong></p>
+        </div>
 
-          <div className="span4 icones">
-            <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
-              <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
-          </div>
-          <div className="span4 icones">
-            <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
-              <i className="icon-instagram"><span>Instagram</span></i></Link>
-          </div>
-          <span className="hide">Fim do conteúdo da página</span>
-        </section>
-      </div>
+        <div className="span4 icones">
+          <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
+            <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
+        </div>
+        <div className="span4 icones">
+          <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
+            <i className="icon-instagram"><span>Instagram</span></i></Link>
+        </div>
+        <span className="hide">Fim do conteúdo da página</span>
+      </section>
 
     </div>
   )

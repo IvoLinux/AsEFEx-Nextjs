@@ -50,9 +50,8 @@ function Filtro() {
         <div className="container">
           <div className="row-fluid">
             <div className="span9 module module-box-01">
-              <div className="header">
-                <h2 className="titulo-box"><strong>Filtro</strong></h2>
-              </div>
+              <div className="header"><h2 className="titulo-box"><strong>Filtro</strong></h2></div>
+
               <form>
                 <div style={{ width: "auto" }} className="form-group span5">
                   <label htmlFor="decada">Década:</label>
@@ -88,8 +87,10 @@ function Filtro() {
                   </select>
                 </div>
               </form>
+
               <button style={{ borderRadius: "4px", marginLeft: "26px" }} variant="primary" className="btn-default" onClick={handleSearch}>Buscar</button>
             </div>
+
             <div className="span9">
               <div className={state.existeDados ? 'noAlert1' : 'alert alert-danger'}>
                 <strong>Esse ano não consta na galeria</strong>

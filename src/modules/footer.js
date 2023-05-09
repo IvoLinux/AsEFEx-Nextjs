@@ -4,11 +4,10 @@ import Link from 'next/link'
 function Footer() {
    return (
       <footer>
-         <div className="footer-atalhos">
-            <div className="container">
-               <div className="pull-right voltar-ao-topo"><Link href="#portal-siteactions"><i className="icon-chevron-up" />&nbsp;Voltar para o topo</Link></div>
-            </div>
-         </div>
+         <div className="footer-atalhos"><div className="container">
+            <div className="pull-right voltar-ao-topo"><Link href="#portal-siteactions"><i className="icon-chevron-up" />&nbsp;Voltar para o topo</Link></div>
+         </div></div>
+
          <div className="container container-menus">
             <div id="footer" className="row footer-menus">
                <span className="hide">Início da navegação de rodapé</span>
@@ -37,6 +36,7 @@ function Footer() {
                      </ul>
                   </nav>
                </div>
+
                <div className="span2">
                   <nav className="row links nav">
                      <h2>Links Importantes</h2>
@@ -59,6 +59,7 @@ function Footer() {
                      </ul>
                   </nav>
                </div>
+
                <div className="span2">
                   <nav className="row redes-sociais nav">
                      <h2>Redes Sociais</h2>
@@ -75,6 +76,7 @@ function Footer() {
                      </ul>
                   </nav>
                </div>
+
                <div className="span2">
                   <nav className="row sobre nav">
                      <h2>Sobre o Site</h2>
@@ -84,6 +86,7 @@ function Footer() {
                      </ul>
                   </nav>
                </div>
+
                <div className="span2">
                   <nav className="row localizacao nav">
                      <h2>Localização</h2>
@@ -91,9 +94,11 @@ function Footer() {
                      <Link href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339" title="Localização">»Venha nos Conhecer</Link>
                   </nav>
                </div>
+
                <span className="hide">Fim da navegação de rodapé</span>
             </div>
             {/* fim .row */}
+
             <div className="container">
                <nav className="apoio nav">
                   <h2>Apoio:</h2>
@@ -113,6 +118,8 @@ function Footer() {
             </div>
          </div>
          {/* fim .container */}
+
+
          <div className="footer-logos">
             <div className="container">
                <Link href="http://www.acessoainformacao.gov.br/" className="logo-acesso pull-left"><img src="images/acesso-a-informacao.png" alt="Acesso a Informação" /></Link>
@@ -121,15 +128,17 @@ function Footer() {
                <Link href="http://www.brasil.gov.br/" className="brasil pull-right"><img src="images/brasil.png" alt="Brasil - Governo Federal" /></Link>
             </div>
          </div>
+
          <div className="footer-ferramenta">
             <div className="container">
-               <p>Site desenvolvido em parceria com a empresa júnior 
-                  <Link style={{color: '#0088CC'}} href="https://imejunior.com.br/?gclid=CjwKCAiAo5qABhBdEiwAOtGmbunns7N22hr1ixaTe6DrGL9vlz8M_DndcTc0pQr53zk_-ddVIBDX5xoCXG4QAvD_BwE">
+               <p>Site desenvolvido em parceria com a empresa júnior
+                  <Link style={{ color: '#0088CC' }} href="https://imejunior.com.br/?gclid=CjwKCAiAo5qABhBdEiwAOtGmbunns7N22hr1ixaTe6DrGL9vlz8M_DndcTc0pQr53zk_-ddVIBDX5xoCXG4QAvD_BwE">
                      IME Júnior
                   </Link>
                </p>
             </div>
          </div>
+
          <div className="footer-atalhos visible-phone">
             <div className="container">
                <span className="hide">Fim do conteúdo da página</span>

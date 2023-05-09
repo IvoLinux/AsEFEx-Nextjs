@@ -31,7 +31,6 @@ export default function Document() {
 
         <script src="js/jquery.min.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
         <script src="js/jquery-noconflict.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
-        <script src="js/jquery.cookie.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
         <script src="/js/template.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
       </Head>
