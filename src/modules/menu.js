@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import $ from "jquery"
-import Head from 'next/head';
 
-function handleMenuAccessibility() {
+function handleMenuAccessibility(e) {
+   if(e.target.nodeName !== "A") return
+
    if ($('#navigation-section').is(':visible'))
       $('#navigation-section').slideUp();
    else
@@ -13,10 +14,12 @@ function Menu() {
    return (
       <>
          <div id="menu">
-            <div id="navigation" className="span3">
-               <Link onClick={() => handleMenuAccessibility()} href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</Link>
+            <div onClick={(e) => handleMenuAccessibility(e)} id="navigation" className="span3">
+               <Link href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</Link>
+
                <section id="navigation-section">
                   <span className="hide">Início do menu principal</span>
+
                   <nav className="span9 sobre">
                      <h2>Sobre a AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -40,6 +43,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 associado">
                      <h2>Área do Associado <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -57,12 +61,14 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 galeria-ex">
                      <h2>Galeria de Ex-Alunos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li><Link href="/galeria-ex" title="Acessar Galeria">»Acessar Galeria</Link></li>
                      </ul>
                   </nav>
+
                   <nav className="span9 publicações">
                      <h2>Publicações AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -77,6 +83,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 atividades">
                      <h2>Atividades <i className="icon-chevron-down visible-phone visible-tablet pull-right" />
                      </h2>
@@ -98,6 +105,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 medalha">
                      <h2>Medalha Mérito Esportivo AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -109,6 +117,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 transparencia">
                      <h2>Transparência <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -120,6 +129,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 central-conteudos">
                      <h2>Central de Conteúdos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -141,6 +151,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <nav className="span9 contato">
                      <h2>Fale Conosco <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
@@ -152,6 +163,7 @@ function Menu() {
                         </li>
                      </ul>
                   </nav>
+
                   <span className="hide">Fim do menu principal</span>
                </section>
             </div>
