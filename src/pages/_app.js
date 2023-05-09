@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Footer from '@/modules/footer'
 import Header from '@/modules/header'
-import Menu from '@/modules/menu'
+import Menu from '@/modules/Menu'
 import Head from 'next/head'
 import Script from 'next/script'
 

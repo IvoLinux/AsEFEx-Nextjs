@@ -1,13 +1,20 @@
 import Link from 'next/link'
 import $ from "jquery"
+import styles from "./index.module.css"
 
 function handleMenuAccessibility(e) {
-   if(e.target.nodeName !== "A") return
+   let collapsable = null
+   if (e.target.nodeName == "H2") collapsable = e.target.nextSibling
+   if (e.target.nodeName == "I") collapsable = e.target.parentNode.nextSibling
 
-   if ($('#navigation-section').is(':visible'))
-      $('#navigation-section').slideUp();
-   else
-      $('#navigation-section').slideDown()
+   if ($(collapsable).is(':visible')) $(collapsable).slideUp()
+   else $(collapsable).slideDown()
+
+   if (e.target.nodeName !== "A") return
+   if ($(document).width() > 978) return
+
+   if ($('#navigation-section').is(':visible')) $('#navigation-section').slideUp()
+   else $('#navigation-section').slideDown()
 }
 
 function Menu() {
@@ -21,7 +28,7 @@ function Menu() {
                   <span className="hide">Início do menu principal</span>
 
                   <nav className="span9 sobre">
-                     <h2>Sobre a AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Sobre a AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/historico" title="Histórico">»Histórico</Link>
@@ -45,7 +52,7 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 associado">
-                     <h2>Área do Associado <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Área do Associado <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/galeria-as" title="Galeria de Associados">»Galeria de Associados</Link>
@@ -63,14 +70,14 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 galeria-ex">
-                     <h2>Galeria de Ex-Alunos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Galeria de Ex-Alunos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li><Link href="/galeria-ex" title="Acessar Galeria">»Acessar Galeria</Link></li>
                      </ul>
                   </nav>
 
                   <nav className="span9 publicações">
-                     <h2>Publicações AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Publicações AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/revista" title="Revista AsEFEx">»Revista AsEFEx</Link>
@@ -85,7 +92,7 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 atividades">
-                     <h2>Atividades <i className="icon-chevron-down visible-phone visible-tablet pull-right" />
+                     <h2 className={styles.title}>Atividades <i className="icon-chevron-down visible-phone visible-tablet pull-right" />
                      </h2>
                      <ul>
                         <li>
@@ -107,7 +114,7 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 medalha">
-                     <h2>Medalha Mérito Esportivo AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Medalha Mérito Esportivo AsEFEx <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/medalha" title="A Medalha">»A Medalha</Link>
@@ -119,7 +126,7 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 transparencia">
-                     <h2>Transparência <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Transparência <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/relatorio_fin" title="Relatórios Financeiros">»Relatórios Financeiros </Link>
@@ -131,7 +138,7 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 central-conteudos">
-                     <h2>Central de Conteúdos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Central de Conteúdos <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/downloads" className="audios" title="Downloads">
@@ -153,7 +160,7 @@ function Menu() {
                   </nav>
 
                   <nav className="span9 contato">
-                     <h2>Fale Conosco <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
+                     <h2 className={styles.title}>Fale Conosco <i className="icon-chevron-down visible-phone visible-tablet pull-right" /></h2>
                      <ul>
                         <li>
                            <Link href="/fale-conosco" title="Contato">»Contato</Link>

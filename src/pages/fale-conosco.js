@@ -123,7 +123,7 @@ export default function Home() {
 
               {/* <div className="singleItem">
                         <label htmlFor="assunto">Assunto:</label>
-                        <select name="assunto" id="assunto" class="custom-select" defaultValue="escolha" onChange={mudarAssunto}>
+                        <select name="assunto" id="assunto" className="custom-select" defaultValue="escolha" onChange={mudarAssunto}>
                             <option selected value="escolha">Escolha uma opção....</option>
                             <option value="Dúvida">Dúvida</option>
                             <option value="Pagamento">Pagamento</option>

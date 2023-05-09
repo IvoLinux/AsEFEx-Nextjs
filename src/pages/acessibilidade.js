@@ -15,7 +15,7 @@ export default function Acessibilidade() {
           <div className="row-fluid module">
             <h1 className="documentFirstHeading">Acessibilidade</h1>
           </div>
-          <div class="description">
+          <div className="description">
             <p>Este portal segue as diretrizes do e-MAG (Modelo de Acessibilidade em Governo Eletrônico), conforme as normas do Governo Federal, em obediência ao Decreto 5.296, de 2.12.2004</p>
           </div>
 

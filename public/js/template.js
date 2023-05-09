@@ -27,36 +27,24 @@ function init() {
 function resize() {
 	//ajustes de responsividade
 	if (jQuery(document).width() < 979) {
-		if (jQuery('#navigation h2').css('cursor') != 'pointer') {
-			jQuery('#navigation h2').css('cursor', 'pointer');
-			jQuery('#navigation h2').on("click", function () {
-				if (!jQuery(this).next().is(':visible')) {
-					jQuery(this).next().slideDown();
-					jQuery(this).find('i').removeClass('icon-chevron-down');
-					jQuery(this).find('i').addClass('icon-chevron-up');
-				}
-				else {
-					jQuery(this).next().slideUp();
-					jQuery(this).find('i').addClass('icon-chevron-down');
-					jQuery(this).find('i').removeClass('icon-chevron-up');
-				}
-			});
-		}
-		if (jQuery('#navigation-section').is(':visible'))
-			jQuery('#navigation-section').hide();
+		jQuery('#navigation h2').on("click", function () {
+			if (!jQuery(this).next().is(':visible')) {
+				jQuery(this).find('i').removeClass('icon-chevron-down');
+				jQuery(this).find('i').addClass('icon-chevron-up');
+			}
+			else {
+				jQuery(this).find('i').addClass('icon-chevron-down');
+				jQuery(this).find('i').removeClass('icon-chevron-up');
+			}
+		});
 
 		module_box_adjust('auto');
 		module_box_adjust(null);
 	}
 	else {
-		if (jQuery('#navigation h2').css('cursor') != 'default') {
-			jQuery('#navigation h2').css('cursor', 'default');
-			jQuery('#navigation h2').on("click", function () { return false; });
-			jQuery('#navigation h2').next().show();
-			jQuery('#navigation-section').fadeIn();
-			jQuery('#em-destaque').fadeIn();
-			module_box_adjust(null);
-		}
+		jQuery('#navigation h2').next().show();
+		jQuery('#navigation-section').fadeIn();
+		module_box_adjust(null);
 	}
 	//fim ajustes responsividade
 }

@@ -63,11 +63,11 @@ function Header() {
                   {/* fim div.span6 */}
                   <div className="span6 language-and-actions-container">
                      {/* Descomente para inserir menu de exemplo de idiomas no topo */}
-                     {/* <ul id="language" class="pull-right">
-							<li class="language-en">
+                     {/* <ul id="language" className="pull-right">
+							<li className="language-en">
                      <Link href="#">EN</Link>
 							</li>
-							<li class="language-es">
+							<li className="language-es">
                      <Link href="#">ES</Link>
 							</li>
 						</ul>	 */}
@@ -88,7 +88,7 @@ function Header() {
                {/* fim .row-fluid */}
                <div className="row-fluid">
                   <div id="logo" className="span8">
-                     {/* <div id="logo" class="span8 big"> <div id="logo" class="span8 small"> */}
+                     {/* <div id="logo" className="span8 big"> <div id="logo" className="span8 small"> */}
                      <div id="img_logo" className="span2" style={{ paddingTop: 5 }}>
                         <Link href="/" title="Logo do Portal Padrão">
                            <img alt="Logo" src="images/Logo.png" style={{ maxWidth: 100, maxHeight: 100, width: 'auto', height: 'auto' }} />
