@@ -12,7 +12,7 @@ function init() {
 	browser_adjusts();
 
 	//inicializacao de carrossel, pagina inicial
-	jQuery('.gallery-pane .carousel').carousel({ interval: 1000 });
+	jQuery('.gallery-pane .carousel').carousel({ interval: 5000 });
 	jQuery(document).on('click.carousel.data-api', '[data-slide]', function (e) {
 		var $this = jQuery(this), href
 			, $target = jQuery($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
