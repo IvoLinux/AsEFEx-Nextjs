@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <div className="layout">
+        <a class="hide" id="topo" href="#accessibility">Ir direto para menu de acessibilidade.</a>
         <noscript>
           <div className="error minor-font">
             Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }) {
           integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
           crossorigin="anonymous"
         />
+        <Script src="http://barra.brasil.gov.br/barra.js?cor=verde" type="text/javascript" />
       </div>
     </>
   )

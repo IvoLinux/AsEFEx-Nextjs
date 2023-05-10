@@ -1367,7 +1367,7 @@ main div.container .variacao-module-03 a.outstanding-link .icon-box {
   color: #fff !important;
 }
 main div.container .module-box-01 {
-  padding-bottom: 2em;
+  padding-bottom: 0px;
   background: #eeeff2;
   border: 1px solid #c3c0c0;
   -webkit-border-radius: 8px;
@@ -1589,8 +1589,8 @@ main div.rastro-navegacao a:hover {
 #content.internas h6 {
   font-size: 1.6em;
   font-weight: 700;
-  margin-bottom: 0.8em;
-  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+  margin-top: 0.2em;
 }
 #content.internas .documentCategory {
   display: block;

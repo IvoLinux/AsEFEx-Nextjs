@@ -49,7 +49,7 @@ function Filtro() {
       {showTabela == false ?
         <div className="container">
           <div className="row-fluid">
-            <div className="span9 module module-box-01">
+            <div className="span9 module module-box-01" style={{paddingBottom: "2em"}}>
               <div className="header"><h2 className="titulo-box"><strong>Filtro</strong></h2></div>
 
               <form>

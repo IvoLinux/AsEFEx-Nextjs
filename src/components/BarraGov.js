@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Script from 'next/script';
 
 const BarraGov = () => {
     return (
@@ -9,8 +8,6 @@ const BarraGov = () => {
                     Portal do Governo Brasileiro
                 </Link>
             </div>
-
-            <Script src="http://barra.brasil.gov.br/barra.js?cor=verde" type="text/javascript" />
         </>
     );
 };
