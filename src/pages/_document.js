@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="/manifest.json" />
 
         {/* Notice the use of %PUBLIC_URL% in the tags above.
         It will be replaced with the URL of the `public` folder during the build.
@@ -31,8 +31,8 @@ export default function Document() {
 
         <script src="js/jquery.min.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
         <script src="js/jquery-noconflict.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
-        <script src="/js/template.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
+        <script src="/js/template.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
       </Head>
 
       <body>

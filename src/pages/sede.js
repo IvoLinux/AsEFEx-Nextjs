@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className="documentFirstHeading">Sede - AsEFEx</h1>
           <section className="module-section">
             <div className="span4 no-margin">
-              <h2><Link href="#">Sobre a Sede</Link></h2>
+              <h2>Sobre a Sede</h2>
               <p>A sede da AsEFEx - Associação dos Ex-Alunos e dos Amigos da Escola de Educação Física do Exército fica na Fortaleza de São João, no bairro das Urca, no Rio de Janeiro-RJ, em dependências sob cessão do Centro de Capacitação Física do Exército Brasileiro.</p>
               <p>Para saber mais sobre a localização da AsEFEx, <Link style={{ color: '#0088CC' }} href="https://goo.gl/maps/N53Y6ugWhxis7Lmm7">clique aqui </Link>.</p>
             </div>

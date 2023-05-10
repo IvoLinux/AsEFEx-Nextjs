@@ -22,7 +22,7 @@ function Menu() {
       <>
          <div id="menu">
             <div onClick={(e) => handleMenuAccessibility(e)} id="navigation" className="span3">
-               <Link href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</Link>
+               <Link onClick={(e) => e.preventDefault()} href="#" className="visible-phone visible-tablet mainmenu-toggle btn"><i className="icon-list" />&nbsp;Menu</Link>
 
                <section id="navigation-section">
                   <span className="hide">Início do menu principal</span>

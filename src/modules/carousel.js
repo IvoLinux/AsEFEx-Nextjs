@@ -1,6 +1,27 @@
 import Link from "next/link"
+import { useRouter } from "next/router"
+import { useEffect } from "react";
+import $ from 'jquery'
 
 export default function Carousel() {
+   // const router = useRouter()
+   // useEffect(() => {
+   //    <script src="/js/template.js" type="text/javascript" />
+   //    // console.log($('.carousel').data())
+   // }, [])
+
+   // useEffect(() => {
+   //    const exitingFunction = () => {
+   //       $('.carousel').removeData()
+   //    };
+
+   //    router.events.on("routeChangeStart", exitingFunction);
+
+   //    return () => {
+   //       router.events.off("routeChangeStart", exitingFunction);
+   //    };
+   // }, []);
+
    return <div className="carousel slide" id="gallery-carousel">
       <div className="carousel-inner">
          <div className="item">
@@ -60,9 +81,13 @@ export default function Carousel() {
          </div>
       </div>
 
-      <Link data-slide="prev" href="#gallery-carousel" className="left carousel-control"><i className="icon-angle-left" /><span className="hide">Mover foto esquerda</span></Link>
+      <Link onClick={(e) => e.preventDefault()} data-slide="prev" className="left carousel-control" href="#gallery-carousel">
+         <i className="icon-angle-left" /><span className="hide">Mover foto esquerda</span>
+      </Link>
       {/* separador para fins de acessibilidade */}<span className="hide">&nbsp;</span>
       {/* fim separador para fins de acessibilidade */}
-      <Link data-slide="next" href="#gallery-carousel" className="right carousel-control"><i className="icon-angle-right" /><span className="hide">Mover foto esquerda</span></Link>
+      <Link onClick={(e) => e.preventDefault()} data-slide="next" className="right carousel-control" href="#gallery-carousel">
+         <i className="icon-angle-right" /><span className="hide">Mover foto esquerda</span>
+      </Link>
    </div>
 }

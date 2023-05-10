@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <div className="layout">
-        <a class="hide" id="topo" href="#accessibility">Ir direto para menu de acessibilidade.</a>
+        <a className="hide" id="topo" href="#accessibility">Ir direto para menu de acessibilidade.</a>
         <noscript>
           <div className="error minor-font">
             Seu navegador de internet está sem suporte à JavaScript. Por esse motivo algumas funcionalidades do site
