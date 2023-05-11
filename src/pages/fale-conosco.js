@@ -159,11 +159,11 @@ export default function Home() {
       </div>
 
       <div className="span4 icones">
-        <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
+        <Link target="_blank" title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
           <i className="icon-facebook-sign"><span>Facebook</span></i></Link>
       </div>
       <div className="span4 icones">
-        <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
+        <Link target="_blank" title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
           <i className="icon-instagram"><span>Instagram</span></i></Link>
       </div>
       <span className="hide">Fim do conteúdo da página</span>

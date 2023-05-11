@@ -27,11 +27,11 @@ function Footer() {
                <nav className="row links nav">
                   <h2>Links Importantes</h2>
                   <ul>
-                     <li className="portalservicos-item"><Link title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</Link></li>
-                     <li className="portalservicos-item"><Link title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</Link></li>
-                     <li className="portalservicos-item"><Link title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</Link></li>
-                     <li className="portalservicos-item"><Link title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</Link></li>
-                     <li className="portalservicos-item"><Link title="CDE" href="http://www.cde.eb.mil.br/">CDE</Link></li>
+                     <li className="portalservicos-item"><Link target="_blank" title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</Link></li>
+                     <li className="portalservicos-item"><Link target="_blank" title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</Link></li>
+                     <li className="portalservicos-item"><Link target="_blank" title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</Link></li>
+                     <li className="portalservicos-item"><Link target="_blank" title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</Link></li>
+                     <li className="portalservicos-item"><Link target="_blank" title="CDE" href="http://www.cde.eb.mil.br/">CDE</Link></li>
                   </ul>
                </nav>
             </div>
@@ -40,9 +40,9 @@ function Footer() {
                <nav className="row redes-sociais nav">
                   <h2>Redes Sociais</h2>
                   <ul>
-                     <li className="portalredes-item"><Link title="Twitter" href="https://twitter.com/Asefex1?s=20">Twitter</Link></li>
-                     <li className="portalredes-item"><Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">Facebook</Link></li>
-                     <li className="portalredes-item"><Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">Instagram</Link></li>
+                     <li className="portalredes-item"><Link target="_blank" title="Twitter" href="https://twitter.com/Asefex1?s=20">Twitter</Link></li>
+                     <li className="portalredes-item"><Link target="_blank" title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">Facebook</Link></li>
+                     <li className="portalredes-item"><Link target="_blank" title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">Instagram</Link></li>
                   </ul>
                </nav>
             </div>
@@ -60,8 +60,8 @@ function Footer() {
             <div className="span2">
                <nav className="row localizacao nav">
                   <h2>Localização</h2>
-                  <Link href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339"><img src="images/local.png" alt="imagem decorativa" style={{ maxWidth: 200, maxHeight: 200, height: 'auto', width: 'auto' }} /></Link>
-                  <Link href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339" title="Localização">»Venha nos Conhecer</Link>
+                  <Link target="_blank" href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339"><img src="images/local.png" alt="imagem decorativa" style={{ maxWidth: 200, maxHeight: 200, height: 'auto', width: 'auto' }} /></Link>
+                  <Link target="_blank" href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339" title="Localização">»Venha nos Conhecer</Link>
                </nav>
             </div>
             <span className="hide">Fim da navegação de rodapé</span>
@@ -72,16 +72,16 @@ function Footer() {
             <nav className="apoio nav">
                <h2>Apoio:</h2>
                <div className="span2" style={{ margin: '3%' }}>
-                  <Link href="https://www.facebook.com/pg/POINT-DO-MILITAR-697220160321225/posts/"><img alt="Point do Militar" src="images/apoio4.png" style={{ maxWidth: 180, maxHeight: 150, width: 'auto', height: 'auto' }} /></Link>
+                  <Link target="_blank" href="https://www.facebook.com/pg/POINT-DO-MILITAR-697220160321225/posts/"><img alt="Point do Militar" src="images/apoio4.png" style={{ maxWidth: 180, maxHeight: 150, width: 'auto', height: 'auto' }} /></Link>
                </div>
                <div className="span2" style={{ margin: '3%' }}>
-                  <Link href="http://barurca.com.br/"><img alt="Bar Urca" src="images/apoio2.png" style={{ maxWidth: 180, maxHeight: 150, width: 'auto', height: 'auto' }} /></Link>
+                  <Link target="_blank" href="http://barurca.com.br/"><img alt="Bar Urca" src="images/apoio2.png" style={{ maxWidth: 180, maxHeight: 150, width: 'auto', height: 'auto' }} /></Link>
                </div>
                <div className="span2" style={{ margin: '3%' }}>
-                  <Link href="https://www.castelobranco.br/ucb/"><img alt="UCB" src="images/apoio3.png" style={{ maxWidth: 130, maxHeight: 100, width: 'auto', height: 'auto' }} /></Link>
+                  <Link target="_blank" href="https://www.castelobranco.br/ucb/"><img alt="UCB" src="images/apoio3.png" style={{ maxWidth: 130, maxHeight: 100, width: 'auto', height: 'auto' }} /></Link>
                </div>
                <div className="span3" style={{ margin: '3%' }}>
-                  <Link href="http://www.poupex.com.br/"><img alt="Poupex" src="images/apoio1.png" style={{ maxWidth: 310, maxHeight: 200, width: 'auto', height: 'auto' }} /></Link>
+                  <Link target="_blank" href="http://www.poupex.com.br/"><img alt="Poupex" src="images/apoio1.png" style={{ maxWidth: 310, maxHeight: 200, width: 'auto', height: 'auto' }} /></Link>
                </div>
             </nav>
          </div>
@@ -91,17 +91,17 @@ function Footer() {
 
       <div className="footer-logos">
          <div className="container">
-            <Link href="http://www.acessoainformacao.gov.br/" className="logo-acesso pull-left"><img src="images/acesso-a-informacao.png" alt="Acesso a Informação" /></Link>
+            <Link target="_blank" href="http://www.acessoainformacao.gov.br/" className="logo-acesso pull-left"><img src="images/acesso-a-informacao.png" alt="Acesso a Informação" /></Link>
             {/* separador para fins de acessibilidade */}<span className="hide">&nbsp;</span>
             {/* fim separador para fins de acessibilidade */}
-            <Link href="http://www.brasil.gov.br/" className="brasil pull-right"><img src="images/brasil.png" alt="Brasil - Governo Federal" /></Link>
+            <Link target="_blank" href="http://www.brasil.gov.br/" className="brasil pull-right"><img src="images/brasil.png" alt="Brasil - Governo Federal" /></Link>
          </div>
       </div>
 
       <div className="footer-ferramenta">
          <div className="container">
             <p>Site desenvolvido em parceria com a empresa júnior
-               <Link style={{ color: '#0088CC' }} href="https://imejunior.com.br/?gclid=CjwKCAiAo5qABhBdEiwAOtGmbunns7N22hr1ixaTe6DrGL9vlz8M_DndcTc0pQr53zk_-ddVIBDX5xoCXG4QAvD_BwE">
+               <Link target="_blank" style={{ color: '#0088CC' }} href="https://imejunior.com.br/?gclid=CjwKCAiAo5qABhBdEiwAOtGmbunns7N22hr1ixaTe6DrGL9vlz8M_DndcTc0pQr53zk_-ddVIBDX5xoCXG4QAvD_BwE">
                   IME Júnior
                </Link>
             </p>

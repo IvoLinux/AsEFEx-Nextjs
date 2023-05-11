@@ -110,12 +110,12 @@ function Header() {
               <h2 className="hidden">Redes Sociais</h2>
               <ul className="pull-right">
                 <li className="portalredes-item">
-                  <Link title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
+                  <Link target="_blank" title="Facebook" href="https://www.facebook.com/asefex1990_desportoexercito-103120284947772/">
                     <i className="icon-facebook-sign"><span>Facebook</span></i>
                   </Link>
                 </li>
                 <li className="portalredes-item">
-                  <Link title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
+                  <Link target="_blank" title="Instagram" href="https://www.instagram.com/asefex1990_desportoexercito/">
                     <i className="icon-instagram"><span>Instagram</span></i>
                   </Link>
                 </li>
@@ -135,19 +135,19 @@ function Header() {
             <h2 className="hide">Serviços</h2>
             <ul>
               <li className="portalservicos-item">
-                <Link title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</Link>
+                <Link target="_blank" title="Exército Brasileiro" href="http://www.eb.mil.br/">Exército Brasileiro</Link>
               </li>
               <li className="portalservicos-item">
-                <Link title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</Link>
+                <Link target="_blank" title="CCFEx" href="http://www.ccfex.eb.mil.br/">CCFEx</Link>
               </li>
               <li className="portalservicos-item">
-                <Link title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</Link>
+                <Link target="_blank" title="EsEFEx" href="http://www.esefex.eb.mil.br/">EsEFEx</Link>
               </li>
               <li className="portalservicos-item">
-                <Link title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</Link>
+                <Link target="_blank" title="IPCFEx" href="http://www.ipcfex.eb.mil.br/">IPCFEx</Link>
               </li>
               <li className="portalservicos-item">
-                <Link title="CDE" href="http://www.cde.eb.mil.br/">CDE</Link>
+                <Link target="_blank" title="CDE" href="http://www.cde.eb.mil.br/">CDE</Link>
               </li>
               <li className="portalservicos-item">
                 <Link href="/fale-conosco" title="Contato">Contato</Link>

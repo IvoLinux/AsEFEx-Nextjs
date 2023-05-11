@@ -10,7 +10,7 @@ export default function Card({ title, image, description, route = "" }) {
                     <p>{description}</p>
                 </>
                 :
-                <Link href={route}>
+                <Link target="_blank" href={route}>
                     <img src={image} />
                     <h2><strong>{title}</strong></h2>
                     <p>{description}</p>
