@@ -1,26 +1,7 @@
 import Link from "next/link"
-import { useRouter } from "next/router"
-import { useEffect } from "react";
-import $ from 'jquery'
+import { Carousel } from "react-bootstrap"
 
-export default function Carousel() {
-   // const router = useRouter()
-   // useEffect(() => {
-   //    <script src="/js/template.js" type="text/javascript" />
-   //    // console.log($('.carousel').data())
-   // }, [])
-
-   // useEffect(() => {
-   //    const exitingFunction = () => {
-   //       $('.carousel').removeData()
-   //    };
-
-   //    router.events.on("routeChangeStart", exitingFunction);
-
-   //    return () => {
-   //       router.events.off("routeChangeStart", exitingFunction);
-   //    };
-   // }, []);
+export default function Garbage() {
 
    return <div className="carousel slide" id="gallery-carousel">
       <div className="carousel-inner">
