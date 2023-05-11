@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/carousel.css'
 import Footer from '@/modules/footer'
 import Header from '@/modules/header'
 import Menu from '@/modules/Menu'

@@ -294,7 +294,6 @@ header #portal-searchbox form {
 header #portal-searchbox input.searchField {
   font-size: 12px;
   width: 177px;
-  height: 100%;
 }
 header #portal-searchbox input.searchField:focus {
   background-color: #ffffe5;

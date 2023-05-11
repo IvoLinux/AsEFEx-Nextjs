@@ -28,7 +28,9 @@ export default function Document() {
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,800,700' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="jplayer/skin/portalpadrao01/jplayer.css" type='text/css' />
         <link rel="stylesheet" href="css/css_adicional.css" type='text/css' />
+
         <script src="js/jquery.min.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
+        <script src="/js/template.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
         <script src="js/jquery-noconflict.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
       </Head>
 
@@ -37,8 +39,6 @@ export default function Document() {
         <NextScript />
       </body>
 
-        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script> <noscript>&nbsp;</noscript>
-        <script src="/js/template.js" type="text/javascript" /> <noscript>&nbsp;</noscript>
     </Html>
   )
 }

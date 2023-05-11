@@ -11,18 +11,6 @@ function init() {
 	//ajustes conforme navegador
 	browser_adjusts();
 
-	//inicializacao de carrossel, pagina inicial
-	jQuery('.gallery-pane .carousel').carousel({ interval: 5000 });
-	jQuery(document).on('click.carousel.data-api', '[data-slide]', function (e) {
-		var $this = jQuery(this), href
-			, $target = jQuery($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
-			, options = jQuery.extend({}, $target.data(), $this.data())
-
-		if ($target.data('carousel').sliding == true) return
-		if (options.slide == "prev") $target.data('carousel').pause().prev().cycle()
-		if (options.slide == "next") $target.data('carousel').pause().next().cycle()
-	})
-
 	//resize para responsividade
 	resize();
 
