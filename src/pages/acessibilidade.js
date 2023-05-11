@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import React from 'react'
 
 export default function Acessibilidade() {
   return <>

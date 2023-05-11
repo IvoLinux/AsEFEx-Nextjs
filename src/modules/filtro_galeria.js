@@ -12,6 +12,16 @@ function Filtro() {
     preenchido: true
   });
 
+  const updateDecada = (e) => {
+    const { value } = e.target;
+    setState({ ...state, decada: value });
+  }
+
+  const updateAno = (e) => {
+    const { value } = e.target;
+    setState({ ...state, ano: value });
+  }
+
   const handleSearch = () => {
     const anoSelecionado = Number(state.decada) + Number(state.ano)
 
@@ -27,17 +37,7 @@ function Filtro() {
     }
   }
 
-  const updateDecada = (e) => {
-    const { value } = e.target;
-    setState({ ...state, decada: value });
-  }
-
-  const updateAno = (e) => {
-    const { value } = e.target;
-    setState({ ...state, ano: value });
-  }
-
-  async function getTableFromAPI(ano){
+  async function getTableFromAPI(ano) {
     let response = await fetch("/api/galeria-ano/" + ano)
     let data = await response.json();
     setTable(JSON.parse(data))
@@ -49,7 +49,7 @@ function Filtro() {
       {showTabela == false ?
         <div className="container">
           <div className="row-fluid">
-            <div className="span9 module module-box-01" style={{paddingBottom: "2em"}}>
+            <div className="span9 module module-box-01" style={{ paddingBottom: "2em" }}>
               <div className="header"><h2 className="titulo-box"><strong>Filtro</strong></h2></div>
 
               <form>
@@ -103,10 +103,10 @@ function Filtro() {
         </div>
         :
         <TabelaCalcaoPreto
-          setShowTabela = {setShowTabela}
-          setState = {setState}
-          ano = {Number(state.decada) + Number(state.ano)}
-          tabela = {table}
+          setShowTabela={setShowTabela}
+          setState={setState}
+          ano={Number(state.decada) + Number(state.ano)}
+          tabela={table}
         />
       }
     </div>

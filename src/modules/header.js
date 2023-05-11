@@ -1,13 +1,13 @@
 import BarraGov from '@/components/BarraGov';
 import Link from 'next/link'
-import React from 'react'
+import { useEffect, useState } from 'react'
 
 function Header() {
-  const [contraste, setContraste] = React.useState(false);
+  const [contraste, setContraste] = useState(false);
   var loaded = false
 
   // Verifica localStorage pra ver se contraste armazenado == true
-  React.useEffect(() => {
+  useEffect(() => {
     var storedContraste = JSON.parse(localStorage.getItem('contraste'))
     if (storedContraste == true) {
       setContraste(localStorage.getItem('contraste'))
@@ -16,7 +16,7 @@ function Header() {
   }, [])
 
   // Se contraste armazenado == true (loaded == true), ignora o useEffect (se nao o setContraste de cima ativa esse, invertendo o contraste armazenado)
-  React.useEffect(() => {
+  useEffect(() => {
     var element = document.querySelector(".layout")
     if (loaded == true) loaded = false
     else {
