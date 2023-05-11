@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
-  return (
-    <div>
+  return <>
       <Head>
         <title>Sede AsEFEx</title>
       </Head>
@@ -36,7 +35,5 @@ export default function Home() {
 
         <span className="hide">Fim do conteúdo da página</span>
       </section>
-
-    </div>
-  )
+    </>
 }

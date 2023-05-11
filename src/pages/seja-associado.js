@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
-  return (
-    <div>
+  return <>
       <Head>
         <title>Associação - AsEFEx</title>
       </Head>
@@ -17,7 +16,5 @@ export default function Home() {
         <p>Permanecemos à disposição para contatos por e-mail – <Link href="asefex1990@gmail.com">asefex1990@gmail.com</Link>- ou pessoalmente na sede da AsEFEx, de segunda à sexta, de 9h às 12h. </p>
         <span className="hide">Fim do conteúdo da página</span>
       </section>
-
-    </div>
-  )
+    </>
 }
