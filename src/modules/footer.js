@@ -62,7 +62,7 @@ function Footer() {
                <nav className="row localizacao nav">
                   <h2>Localização</h2>
                   <Link target="_blank" href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339">
-                     <Image src="/images/local.png" alt="imagem decorativa" style={{ maxWidth: 200, maxHeight: 200, height: 'auto', width: 'auto' }} width={200} height={200} />
+                     <Image src="/images/local.png" alt="imagem decorativa" style={{ height: 'auto', width: 'auto' }} width={200} height={200} />
                   </Link>
                   <Link target="_blank" href="https://www.google.com.br/maps/place/Fortaleza+de+S%C3%A3o+Jo%C3%A3o/@-22.9443784,-43.1591347,17.5z/data=!4m5!3m4!1s0x99803866859f89:0x91edb2d4aaed033!8m2!3d-22.9438372!4d-43.1586339" title="Localização">
                      »Venha nos Conhecer
@@ -77,16 +77,16 @@ function Footer() {
             <nav className="apoio nav">
                <h2>Apoio:</h2>
                <div className="span2" style={{ margin: '3%' }}>
-                  <Link target="_blank" href="https://www.facebook.com/pg/POINT-DO-MILITAR-697220160321225/posts/"><Image alt="Point do Militar" src="/images/apoio4.png" style={{ maxWidth: 180, maxHeight: 150, width: 'auto', height: 'auto' }} width={180} height={150} /></Link>
+                  <Link target="_blank" href="https://www.facebook.com/pg/POINT-DO-MILITAR-697220160321225/posts/"><Image alt="Point do Militar" src="/images/apoio4.png" style={{ width: 'auto', height: 'auto', maxWidth: 163, maxHeight: 78 }} width={200} height={200} /></Link>
                </div>
                <div className="span2" style={{ margin: '3%' }}>
-                  <Link target="_blank" href="http://barurca.com.br/"><Image alt="Bar Urca" src="/images/apoio2.png" style={{ maxWidth: 180, maxHeight: 150, width: 'auto', height: 'auto' }} width={180} height={150} /></Link>
+                  <Link target="_blank" href="http://barurca.com.br/"><Image alt="Bar Urca" src="/images/apoio2.png" style={{ width: 'auto', height: 'auto' }} width={180} height={150} /></Link>
                </div>
                <div className="span2" style={{ margin: '3%' }}>
-                  <Link target="_blank" href="https://www.castelobranco.br/ucb/"><Image alt="UCB" src="/images/apoio3.png" style={{ maxWidth: 130, maxHeight: 100, width: 'auto', height: 'auto' }} width={130} height={100} /></Link>
+                  <Link target="_blank" href="https://www.castelobranco.br/ucb/"><Image alt="UCB" src="/images/apoio3.png" style={{ width: 'auto', height: 'auto' }} width={150} height={100} /></Link>
                </div>
                <div className="span3" style={{ margin: '3%' }}>
-                  <Link target="_blank" href="http://www.poupex.com.br/"><Image alt="Poupex" src="/images/apoio1.png" style={{ maxWidth: 310, maxHeight: 200, width: 'auto', height: 'auto' }} width={310} height={200} /></Link>
+                  <Link target="_blank" href="http://www.poupex.com.br/"><Image alt="Poupex" src="/images/apoio1.png" style={{ width: 'auto', height: 'auto', maxWidth: 310, maxHeight: 200 }} width={350} height={250} /></Link>
                </div>
             </nav>
          </div>
@@ -96,10 +96,10 @@ function Footer() {
 
       <div className="footer-logos">
          <div className="container">
-            <Link target="_blank" href="http://www.acessoainformacao.gov.br/" className="logo-acesso pull-left"><Image src="/images/acesso-a-informacao.png" alt="Acesso a Informação" width={100} height={100} /></Link>
+            <Link target="_blank" href="http://www.acessoainformacao.gov.br/" className="logo-acesso pull-left"><Image src="/images/acesso-a-informacao.png" alt="Acesso a Informação" style={{  minWidth: 100, width: 'auto', height: 'auto' }} width={500} height={500} /></Link>
             {/* separador para fins de acessibilidade */}<span className="hide">&nbsp;</span>
             {/* fim separador para fins de acessibilidade */}
-            <Link target="_blank" href="http://www.brasil.gov.br/" className="brasil pull-right"><Image src="/images/brasil.png" alt="Brasil - Governo Federal" width={160} height={160} /></Link>
+            <Link target="_blank" href="http://www.brasil.gov.br/" className="brasil pull-right"><Image src="/images/brasil.png" alt="Brasil - Governo Federal" style={{ minWidth: 150, width: 'auto', height: 'auto' }} width={500} height={500} /></Link>
          </div>
       </div>
 
