@@ -1,4 +1,5 @@
 import BarraGov from '@/components/BarraGov';
+import Image from 'next/image';
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -79,7 +80,7 @@ function Header() {
             {/* <div id="logo" className="span8 big"> <div id="logo" className="span8 small"> */}
             <div id="img_logo" className="span2" style={{ paddingTop: 5 }}>
               <Link href="/" title="Logo do Portal Padrão">
-                <img alt="Logo" src="images/Logo.png" style={{ maxWidth: 100, maxHeight: 100, width: 'auto', height: 'auto' }} />
+                <Image alt="Logo" src="/images/Logo.png" style={{ maxWidth: 100, maxHeight: 100, width: 'auto', height: 'auto' }} width={1000} height={1000} />
               </Link>
             </div>
             <div id="txt_logo" className="span10">
