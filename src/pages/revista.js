@@ -20,6 +20,30 @@ export default function Home() {
         <Link style={{ color: '#0088CC' }} href="/escreva">Faça sua proposta de matéria para publicação na Revista da AsEFEx.</Link>
       </p>
 
+      <h2>Edições 2023</h2>
+      <div className="container">
+        <div className="row">
+          <Card title="Nr 125" image="/images/Exemplo123.png" alt="Revista Edição 125" description="Janeiro a Março de 2023"
+            route="https://google.com" />
+
+          <Card title="Nr 125" image="/images/Exemplo123.png" alt="Revista Edição 125" description="Janeiro a Março de 2023"
+            route="https://google.com" />
+
+          {/* <Card title="Nr ___" image="/images/______.jpg" alt="Revista Edição ___ " description="____ a ____ de 2022"
+                        route="https://______.com"/> */}
+        </div>
+        <div className="row">
+          <Card title="Nr 125" image="/images/Exemplo123.png" alt="Revista Edição 125" description="Janeiro a Março de 2023"
+            route="https://google.com" />
+
+          <Card title="Nr 125" image="/images/Exemplo123.png" alt="Revista Edição 125" description="Janeiro a Março de 2023"
+            route="https://google.com" />
+
+          {/* <Card title="Nr ___" image="/images/______.jpg" alt="Revista Edição ___ " description="____ a ____ de 2022"
+                        route="https://______.com"/> */}
+        </div>
+      </div>
+
       <h2>Edições 2022</h2>
       <div className="container">
         <div className="row">
