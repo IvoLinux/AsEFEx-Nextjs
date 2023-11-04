@@ -1,17 +1,22 @@
-import { ChevronRight, ChevronDown } from "lucide-react"
 import $ from "jquery"
 import styles from "./index.module.css"
 import React from "react"
+import CPForm from "../CPForm"
 
 export default function TabelaAdmin({ setShowTabela, ano, tabela }) {
   function collapseRow(e, id) {
-    console.log(e.target)
     let collapsable = $("#" + id)
     // if (e.target.nodeName == "I") collapsable = e.target.parentNode.nextSibling
     if (collapsable == null) return
 
-    if ($(collapsable).is(':visible')) $(collapsable).fadeOut(300)
-    else $(collapsable).show(300)
+    if ($(collapsable).is(':visible')) {
+      $(collapsable).fadeOut(300)
+      $("#chev" + id).replaceWith("<svg id=\"chev" + id + "\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>")
+    }
+    else {
+      $(collapsable).show(300)
+      $("#chev" + id).replaceWith("<svg id=\"chev" + id + "\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down\"><path d=\"m6 9 6 6 6-6\"/></svg>")
+    }
   }
 
   return <>
@@ -40,7 +45,7 @@ export default function TabelaAdmin({ setShowTabela, ano, tabela }) {
         {tabela.map((val, index) => {
           return <React.Fragment key={val.NrCP.toString()}>
             <tr style={{ height: "36px" }}>
-              <td><div className={styles.chevron} onClick={(e) => { collapseRow(e, val.NrCP) }} ><ChevronRight size={"20px"} /></div></td>
+              <td><div className={styles.chevron} onClick={(e) => { collapseRow(e, index + 1) }} ><svg id={"chev" + (index + 1)} width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg></div></td>
               <td>{val.NrCP}</td>
               <td>{val.Curso}</td>
               <td><b>{val.Posto}</b></td>
@@ -48,11 +53,7 @@ export default function TabelaAdmin({ setShowTabela, ano, tabela }) {
               <td>{val.Arma}</td>
             </tr>
             <tr><td id={index + 1} className={styles.dadoRow} colSpan="6">
-              <input className={styles.input} placeholder="Número do Calção Preto" onChange={(e) => {  }}></input>
-              <input className={styles.input} placeholder="Curso" onChange={(e) => {  }}></input>
-              <input className={styles.input} placeholder="Posto" onChange={(e) => {  }}></input>
-              <input className={styles.input} placeholder="Nome" onChange={(e) => {  }}></input>
-              <input className={styles.input} placeholder="Arma" onChange={(e) => {  }}></input>
+              <CPForm data={val} ano={ano}/>
             </td></tr>
           </React.Fragment>
         })}

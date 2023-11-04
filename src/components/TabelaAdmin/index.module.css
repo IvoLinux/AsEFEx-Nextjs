@@ -18,19 +18,3 @@
 	max-width: "70vw";
 	display: none;
 }
-
-.dado {
-	display: flex;
-	justify-content: flex-start;
-}
-
-.input {
-	display: flex;
-	justify-content: flex-start;
-	margin-top: 6px;
-	width: 30%;
-	font-size: 14px;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	border-radius: 4px;
-	padding: 2px;
-}
