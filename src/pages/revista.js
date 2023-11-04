@@ -26,8 +26,8 @@ export default function Home() {
           <Card title="Nr 117" image="/images/ed117.jpg" alt="Revista Edição 117" description="Janeiro a Março de 2022"
             route="https://pt.calameo.com/read/006435344567665a09633?authid=e15gBQsiCu7E" />
 
-      {/* <Card title="Nr ___" image="/images/______.jpg" alt="Revista Edição ___ " description="____ a ____ de 2022"
-            route="https://______.com"/> */}
+          {/* <Card title="Nr ___" image="/images/______.jpg" alt="Revista Edição ___ " description="____ a ____ de 2022"
+                        route="https://______.com"/> */}
         </div>
       </div>
 
